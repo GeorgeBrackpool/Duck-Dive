@@ -7,6 +7,10 @@ public class TouchMovement : MonoBehaviour
     private Rigidbody2D rb; 
     private float downForce = 100f;
     private bool fingerDown;
+
+    [SerializeField]float smooth = 5f;
+    [SerializeField] float tiltAngle = 45f;
+
     
     // Start is called before the first frame update
     void Start()
@@ -33,11 +37,14 @@ public class TouchMovement : MonoBehaviour
        switch (fingerDown)
        {
            case true:
-           rb.AddForce(new Vector2(0f, -downForce), ForceMode2D.Force);
-           //transform.Rotate(0,0,-1);
+           Quaternion target = Quaternion.Euler(0, 0 , -tiltAngle); //The angle we want to Slerp to.
+           transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
+           rb.AddForce(new Vector2(0f, -downForce), ForceMode2D.Force);//Add down force to dive under.
            break;
            case false:
+           Quaternion baseTarget = Quaternion.Euler(0,0,0);//Slerp back to original Angle of 0.
            rb.AddForce(new Vector2( 0f, 0f), ForceMode2D.Force);
+           transform.rotation = Quaternion.Slerp(transform.rotation, baseTarget , Time.deltaTime * smooth);
            break;
        }
     }

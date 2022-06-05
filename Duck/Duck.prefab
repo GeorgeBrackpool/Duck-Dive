@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1227536693032201334}
   - component: {fileID: 1227536693032201335}
   - component: {fileID: 1227536693032201328}
+  - component: {fileID: 942331378429360630}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 65020d9cd01e60e4caef0625746c8da0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -146,3 +147,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f410bc8ac797350498bc605e076e64c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smooth: 5
+  tiltAngle: 60
+--- !u!114 &942331378429360630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227536693032201323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced810def924f6e419e3c359c26fdb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 0}
