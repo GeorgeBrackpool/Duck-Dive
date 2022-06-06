@@ -43,8 +43,9 @@ public class TouchMovement : MonoBehaviour
            break;
            case false:
            Quaternion baseTarget = Quaternion.Euler(0,0,0);//Slerp back to original Angle of 0.
-           rb.AddForce(new Vector2( 0f, 0f), ForceMode2D.Force);
            transform.rotation = Quaternion.Slerp(transform.rotation, baseTarget , Time.deltaTime * smooth);
+           rb.AddForce(new Vector2( 0f, 0f), ForceMode2D.Force);
+           
            break;
        }
     }
