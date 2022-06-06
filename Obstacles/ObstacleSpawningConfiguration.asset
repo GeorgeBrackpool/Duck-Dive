@@ -15,3 +15,6 @@ MonoBehaviour:
   obstaclePrefabs:
   - {fileID: 1464018881684090868, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
   - {fileID: 2795419376059897702, guid: 5870bd39415bd2943af76c617c1dd1f3, type: 3}
+  timeBetweenObstacleSpawns: 2
+  spawnTimeVariance: 0.1
+  minimumSpawnTime: 1
