@@ -123,6 +123,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &451450073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4155744089234412666, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+  m_PrefabInstance: {fileID: 4155744089006247613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &451450074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451450073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b048c853c399a49b4359811dc0f3a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 1464018881684090868, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
+  - {fileID: 96133981095729982, guid: f6e31f6ce826f3741ad779f5303d80c5, type: 3}
+  - {fileID: 4747017640256708423, guid: 52585cab63fedcf46813a3284ce82428, type: 3}
+  timeBetweenObstacleSpawns: 2
+  spawnTimeVariance: 0
+  minimumSpawnTime: 0.2
+  isLoopingWaves: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201333, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.69
+      value: -7.69
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201333, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -333,6 +358,23 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+--- !u!1 &1227536692691357221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1227536693032201323, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+  m_PrefabInstance: {fileID: 1227536692691357220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1227536692691357229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227536692691357221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8774ff640e9a046b5846cbc582f1bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4155744089006247613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,9 +432,33 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1464018881684090868, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
     - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: currentWave
       value: 
       objectReference: {fileID: 11400000, guid: 72364bd5ec33eb848b475d3f0c8ce0fc, type: 2}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: isLoopingWaves
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: timeBetweenObstacleWaves
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: waveConfiguration.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: waveConfiguration.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 72364bd5ec33eb848b475d3f0c8ce0fc, type: 2}
+    - target: {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: waveConfiguration.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 02bba1410fd11d24c9f083ebf0fc5d27, type: 2}
     - target: {fileID: 4155744089234412666, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: m_Name
       value: Obstacle Spawner
@@ -474,6 +540,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687105, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299162853618687106, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
+      propertyPath: m_UpdateMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687107, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
