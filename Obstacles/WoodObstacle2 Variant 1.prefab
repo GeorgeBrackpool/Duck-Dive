@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1464018881684090868, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
       propertyPath: m_Name
-      value: WoodObstacle2 Variant
+      value: WoodObstacle2 Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 1464018881684090869, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1464018881684090869, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87,6 +87,14 @@ PrefabInstance:
     - target: {fileID: 1464018883046474194, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472693971400429807, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
+      propertyPath: m_Size.y
+      value: 2.7665544
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472693971400429807, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.87102723
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

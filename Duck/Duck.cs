@@ -7,11 +7,13 @@ public class Duck : MonoBehaviour
         Rigidbody2D rb;
         BoxCollider2D col;
         bool playerdead;
+        ScoreKeeper scoreKeeper;
     // Start is called before the first frame update
     void Start()
     {
        rb = GetComponent<Rigidbody2D> ();
         col = GetComponent<BoxCollider2D> ();
+        scoreKeeper = GetComponent<ScoreKeeper>();
     }
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class Duck : MonoBehaviour
 
     void DuckDestroyed()
     {
+
         playerdead = true;
         //FindObjectOfType<LevelLoading>().LoadGameOver();
         Destroy(this.gameObject);
