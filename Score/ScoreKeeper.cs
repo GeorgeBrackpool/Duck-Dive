@@ -4,9 +4,23 @@ using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour
 {
-
+    static ScoreKeeper instance;
     int score;
-    // Start is called before the first frame update
+    private void Awake() {
+        ManageSingleton();
+    }
+    void ManageSingleton()
+    {
+        if(instance!=null){
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
    public int GetScore()
    {
     return score;

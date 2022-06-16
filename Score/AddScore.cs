@@ -11,6 +11,9 @@ public class AddScore : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision) 
     {
-       scoreKeeper.ModifyScore(1);
+        if(collision != null && collision.gameObject.tag == "Player")
+        {
+            scoreKeeper.ModifyScore(+1);
+        }
     }
 }
