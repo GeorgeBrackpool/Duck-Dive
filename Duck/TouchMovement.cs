@@ -5,8 +5,13 @@ using UnityEngine;
 public class TouchMovement : MonoBehaviour
 {
     private Rigidbody2D rb; 
-    private float downForce = 100f;
+    [SerializeField] private float downForce = 100f;
+    [SerializeField] private float upForce = 100f;
     private bool fingerDown;
+    private bool stopTouch = false;
+    private Vector2 startTouchPosition, currentTouchPosition, endTouchPosition;
+    public float swipeRange;
+    GameObject Duck;
 
     [SerializeField]float smooth = 5f;
     [SerializeField] float tiltAngle = 45f;
@@ -23,9 +28,35 @@ public class TouchMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        DiveMovement();
+    }
+
+    private void FixedUpdate() {
+      DiveSwitch();
+    }
+
+    private void DiveMovement()
+    {
          if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
            fingerDown = true;
+           startTouchPosition = Input.GetTouch(0).position;
+        }
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
+        {
+           currentTouchPosition = Input.GetTouch(0).position;
+           Vector2 Distance = currentTouchPosition - startTouchPosition;
+        
+        if(fingerDown)
+        {
+            if(transform.position.y > -0.4 && Distance.y > swipeRange)
+            {
+                //StartCoroutine(MoveUpwards);
+                rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
+                
+                stopTouch = true;
+            }
+        }
         }
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
@@ -33,8 +64,9 @@ public class TouchMovement : MonoBehaviour
         }
     }
 
-    private void FixedUpdate() {
-       switch (fingerDown)
+    private void DiveSwitch()
+    {
+         switch (fingerDown)
        {
            case true:
            Quaternion target = Quaternion.Euler(0, 0 , -tiltAngle); //The angle we want to Slerp to.
@@ -51,3 +83,4 @@ public class TouchMovement : MonoBehaviour
     }
 
 }
+
