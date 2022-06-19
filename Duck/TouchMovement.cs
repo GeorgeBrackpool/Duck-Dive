@@ -47,9 +47,9 @@ public class TouchMovement : MonoBehaviour
            currentTouchPosition = Input.GetTouch(0).position;
            Vector2 Distance = currentTouchPosition - startTouchPosition;
         
-        if(fingerDown)
+        if(fingerDown & transform.position.y > -0.4f)
         {
-            if(transform.position.y > -0.4 && Distance.y > swipeRange)
+            if(Distance.y > swipeRange)
             {
                 //StartCoroutine(MoveUpwards);
                 rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
