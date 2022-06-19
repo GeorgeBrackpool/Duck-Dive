@@ -148,6 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f410bc8ac797350498bc605e076e64c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  downForce: 100
+  upForce: 50
+  swipeRange: 20
   smooth: 5
   tiltAngle: 60
 --- !u!114 &942331378429360630
@@ -175,3 +178,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef8774ff640e9a046b5846cbc582f1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxOxygen: 100
+  currentOxygen: 0

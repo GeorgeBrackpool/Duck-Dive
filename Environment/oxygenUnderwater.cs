@@ -27,46 +27,44 @@ public class oxygenUnderwater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+          if (duck.currentOxygen <= 0)
+            {
+            
+            duck.currentOxygen = 0;
+            isUnderwater = false;
+            duck.DuckDestroyed();
+            }
     }
     private void OnTriggerEnter2D(Collider2D collision) 
     {
          if(collision.gameObject.tag == "Player")
         {
+            isUnderwater = true;
             StartCoroutine(reduceOxygen(oxygenDecreaseRate));
         }
-         else
-        {
-            StartCoroutine(regainOxygen(oxygenRegainRate));
-        }
+    }
+     private void OnTriggerExit2D(Collider2D exitCollision)
+    {
+            isUnderwater = false;
     }
 
      IEnumerator reduceOxygen(int damage)
     {
-        isUnderwater = true;
-          if (duck.currentOxygen < 0)
-        {
-            
-            duck.currentOxygen = 0;
-            isUnderwater = false;
-            StopAllCoroutines();
-            duck.DuckDestroyed();
-            
-        }
-         if(isUnderwater == false)
-              {
-                StopCoroutine(reduceOxygen(damage));
-              }
+         
          do
          {
-              duck.currentOxygen -= damage;
-            oxygenMeter.SetOxygen(duck.currentOxygen);
-             
-              yield return new WaitForSeconds(timeBeforeOxygenDecrease);
+            if(gameObject!=null)
+            {
+                duck.currentOxygen -= damage;
+                oxygenMeter.SetOxygen(duck.currentOxygen);
+                yield return new WaitForSeconds(timeBeforeOxygenDecrease);
+            }
+            
         }
         while (isUnderwater == true);
+         
         }
-    IEnumerator regainOxygen(int damage)
+    /*IEnumerator regainOxygen(int damage)
     {
         isUnderwater = false;
         do
@@ -83,5 +81,5 @@ public class oxygenUnderwater : MonoBehaviour
         }
         }
         while (isUnderwater == false);
-    }
+    }*/
 }
