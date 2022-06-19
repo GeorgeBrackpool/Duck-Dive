@@ -275,64 +275,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333811136}
   m_CullTransparentMesh: 1
---- !u!1 &337692935
+--- !u!1 &337692935 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5136616823185157767, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+  m_PrefabInstance: {fileID: 5136616823384434560}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 337692937}
-  - component: {fileID: 337692936}
-  m_Layer: 0
-  m_Name: Underwater Collider
-  m_TagString: Underwater
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &337692936
-BoxCollider2D:
+--- !u!114 &337692938
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337692935}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.031988144, y: -2.9575832}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 18.04763, y: 4.0552373}
-  m_EdgeRadius: 0
---- !u!4 &337692937
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337692935}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ed70fdbac03d9478884c5cb6537dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oxygenMeter: {fileID: 0}
+  duck: {fileID: 0}
+  oxygenDecreaseRate: 5
+  timeBeforeOxygenDecrease: 3
+  timeBeforeOxygenIncrease: 2
+  oxygenRegainRate: 5
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7568202098100745354, guid: b4ecf7071f7d36047bd7d2e414054039, type: 3}
@@ -1058,6 +1023,78 @@ PrefabInstance:
     - {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+--- !u!1001 &5136616823384434560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2544596104672675256, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2544596104672675256, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157767, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_Name
+      value: Underwater Collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157768, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136616823185157769, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2544596104672675256, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f7747cea289a2e44b9200eeafa466e5, type: 3}
 --- !u!1001 &7568202098196385013
 PrefabInstance:
   m_ObjectHideFlags: 0

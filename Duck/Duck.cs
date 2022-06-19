@@ -12,24 +12,23 @@ public class Duck : MonoBehaviour
 
         public int maxOxygen = 100;
         public int currentOxygen;
-        public OxygenMeter oxygenMeter;
+        
+        
 
-        bool isUnderwater = false;
-        [SerializeField] int oxygenDecreaseRate = 5;
+        
+        
     // Start is called before the first frame update
     void Start()
     {
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
        currentOxygen = maxOxygen;
-       
-        
     }
     private void Awake() 
     {
         LevelManager = FindObjectOfType<levelManager>();
         scoreKeeper = GetComponent<ScoreKeeper>();
-        oxygenMeter.SetMaxOxygen(maxOxygen);
+        
     }
 
     // Update is called once per frame
@@ -45,13 +44,10 @@ public class Duck : MonoBehaviour
         {
             DuckDestroyed();
         }
-        while(collision.gameObject.tag == "Underwater")
-        {
-            reduceOxygen(oxygenDecreaseRate);
-        }
+       
     }
 
-    void DuckDestroyed()
+    public void DuckDestroyed()
     {
 
         playerdead = true;
@@ -63,17 +59,5 @@ public class Duck : MonoBehaviour
         //LevelLoading.FirstTime = false;
     }
 
-    void reduceOxygen(int damage)
-    {
-        if(currentOxygen !< 0)
-        {
-            currentOxygen -= damage;
-            oxygenMeter.SetOxygen(currentOxygen);
-        }
-        if(currentOxygen <= 0)
-        {
-            currentOxygen = 0;
-            DuckDestroyed();
-        }
-    }
+   
 }
