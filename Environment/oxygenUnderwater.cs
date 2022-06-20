@@ -46,6 +46,8 @@ public class oxygenUnderwater : MonoBehaviour
      private void OnTriggerExit2D(Collider2D exitCollision)
     {
             isUnderwater = false;
+            StartCoroutine(regainOxygen(oxygenRegainRate));
+            
     }
 
      IEnumerator reduceOxygen(int damage)
@@ -64,22 +66,18 @@ public class oxygenUnderwater : MonoBehaviour
         while (isUnderwater == true);
          
         }
-    /*IEnumerator regainOxygen(int damage)
+    IEnumerator regainOxygen(int damage)
     {
         isUnderwater = false;
         do
         {
-            if(duck.currentOxygen != 0 && duck.currentOxygen != duck.maxOxygen )
-        {
-            duck.currentOxygen += damage;
+            if(gameObject!=null){
+                duck.currentOxygen += damage;
             oxygenMeter.SetOxygen(duck.currentOxygen);
             yield return new WaitForSeconds(timeBeforeOxygenIncrease);
+            }
+        
         }
-        else if(duck.currentOxygen >= duck.maxOxygen)
-        {
-            StopCoroutine(regainOxygen(damage));
-        }
-        }
-        while (isUnderwater == false);
-    }*/
+        while (duck.currentOxygen < duck.maxOxygen && duck.currentOxygen !<= 0 &&  isUnderwater == false);
+    }
 }

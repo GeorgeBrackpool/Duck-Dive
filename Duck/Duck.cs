@@ -52,7 +52,10 @@ public class Duck : MonoBehaviour
 
         playerdead = true;
         LevelManager.LoadGameOver();
-        Destroy(this.gameObject);
+        if(gameObject != null){
+            Destroy(this.gameObject);
+        }
+        
         //GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         //Destroy(explosion, durationOfExplosion);
         //AudioSource.PlayClipAtPoint(deathSFX,Camera.main.transform.position, deathSFXVolume);
