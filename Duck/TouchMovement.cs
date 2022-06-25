@@ -11,7 +11,7 @@ public class TouchMovement : MonoBehaviour
     private bool stopTouch = false;
     private Vector2 startTouchPosition, currentTouchPosition, endTouchPosition;
     public float swipeRange;
-    GameObject Duck;
+
 
     [SerializeField]float smooth = 5f;
     [SerializeField] float tiltAngle = 45f;
@@ -29,10 +29,12 @@ public class TouchMovement : MonoBehaviour
     void Update()
     {
         DiveMovement();
+        
     }
 
     private void FixedUpdate() {
       DiveSwitch();
+      
     }
 
     private void DiveMovement()
@@ -41,27 +43,32 @@ public class TouchMovement : MonoBehaviour
         {
            fingerDown = true;
            startTouchPosition = Input.GetTouch(0).position;
+           
         }
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
            currentTouchPosition = Input.GetTouch(0).position;
            Vector2 Distance = currentTouchPosition - startTouchPosition;
-        
-        if(fingerDown & transform.position.y > -0.4f)
+
+        if(fingerDown)
         {
-            if(Distance.y > swipeRange)
+            if(transform.position.y > -0.4 && Distance.y > swipeRange)
             {
-                //StartCoroutine(MoveUpwards);
-                rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
                 
+                rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
+
                 stopTouch = true;
             }
         }
         }
+   
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
+
            fingerDown = false;
+           
         }
+        
     }
 
     private void DiveSwitch()
@@ -82,5 +89,7 @@ public class TouchMovement : MonoBehaviour
        }
     }
 
+   
+   
 }
 
