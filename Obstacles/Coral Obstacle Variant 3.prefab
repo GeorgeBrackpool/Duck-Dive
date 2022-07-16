@@ -57,8 +57,24 @@ PrefabInstance:
       value: Brokenwood-1
       objectReference: {fileID: 0}
     - target: {fileID: 6331403113145276051, guid: 7f5cbbc616faee541960533272feff2f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331403113145276051, guid: 7f5cbbc616faee541960533272feff2f, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331403113145276051, guid: 7f5cbbc616faee541960533272feff2f, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710044717479574411, guid: 7f5cbbc616faee541960533272feff2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710044717479574411, guid: 7f5cbbc616faee541960533272feff2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

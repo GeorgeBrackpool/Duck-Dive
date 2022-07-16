@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4832936891948028195}
   - component: {fileID: 8138212687010712202}
   - component: {fileID: 1465192444722229411}
-  - component: {fileID: 5909071843359793923}
+  - component: {fileID: 8525673669247255240}
   m_Layer: 0
   m_Name: RockBoulder-3
   m_TagString: Untagged
@@ -26,14 +26,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8040494338476334741}
-  m_LocalRotation: {x: -0, y: -0, z: -0.16458745, w: 0.9863625}
-  m_LocalPosition: {x: 0.11, y: 4.97, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.001, y: 4.97, z: 0}
   m_LocalScale: {x: 0.9641, y: 0.9373, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18.947}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8138212687010712202
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -107,8 +107,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &5909071843359793923
-BoxCollider2D:
+--- !u!68 &8525673669247255240
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -120,16 +120,53 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10089362, y: -0.09615612}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.6}
-    newSize: {x: 1.6, y: 1.6}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.3982127, y: 1.442086}
+  m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.55448735, y: -0.5426566}
+  - {x: -0.5612688, y: -0.042944014}
+  - {x: -0.5095215, y: 0.066746324}
+  - {x: -0.4541972, y: 0.11462489}
+  - {x: -0.40259722, y: 0.1586045}
+  - {x: -0.3579053, y: 0.20935535}
+  - {x: -0.3081157, y: 0.26191682}
+  - {x: -0.25661093, y: 0.30318335}
+  - {x: -0.21071056, y: 0.30920675}
+  - {x: -0.21048214, y: 0.40285215}
+  - {x: -0.16426809, y: 0.41151792}
+  - {x: -0.16153523, y: 0.4645103}
+  - {x: -0.073530965, y: 0.46153724}
+  - {x: -0.04851729, y: 0.5161789}
+  - {x: -0.009637613, y: 0.50785905}
+  - {x: -0.008208636, y: 0.56033194}
+  - {x: 0.08329508, y: 0.5568787}
+  - {x: 0.09927478, y: 0.61455244}
+  - {x: 0.45461673, y: 0.61038333}
+  - {x: 0.49888095, y: 0.55484784}
+  - {x: 0.5595262, y: 0.4983961}
+  - {x: 0.61162025, y: 0.3938643}
+  - {x: 0.60845524, y: 0.22773951}
+  - {x: 0.6623773, y: 0.20827635}
+  - {x: 0.716572, y: 0.1542299}
+  - {x: 0.7118893, y: 0.06431711}
+  - {x: 0.75440043, y: 0.060190767}
+  - {x: 0.76139426, y: -0.3602709}
+  - {x: 0.7061846, y: -0.45137462}
+  - {x: 0.65356976, y: -0.552535}
+  - {x: 0.5980833, y: -0.6156588}
+  - {x: 0.5573089, y: -0.6634682}
+  - {x: 0.50812423, y: -0.6993182}
+  - {x: 0.46531987, y: -0.75633925}
+  - {x: 0.36035603, y: -0.76061827}
+  - {x: 0.35360676, y: -0.80542046}
+  - {x: -0.36054718, y: -0.8082908}
+  - {x: -0.41137964, y: -0.75410545}
+  - {x: -0.46355367, y: -0.7018624}
+  - {x: -0.5152723, y: -0.6508714}
+  - {x: -0.50784904, y: -0.55683583}
+  - {x: -0.5551886, y: -0.55682063}
+  - {x: -0.55309606, y: -0.54143786}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

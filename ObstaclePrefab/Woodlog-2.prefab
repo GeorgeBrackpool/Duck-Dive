@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1599179161379289679
+--- !u!1 &1397703943796938492
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6199086243735946692}
-  - component: {fileID: 8647987154373963015}
-  - component: {fileID: 4580850859518574357}
-  - component: {fileID: 8092176353108332149}
+  - component: {fileID: 3295456828638926389}
+  - component: {fileID: 3867050248809616343}
+  - component: {fileID: 5124939899768779800}
+  - component: {fileID: 5464014078129128813}
   m_Layer: 0
-  m_Name: RockBoulder-1
+  m_Name: Woodlog-2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6199086243735946692
+--- !u!4 &3295456828638926389
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599179161379289679}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: 5.11, z: 1}
-  m_LocalScale: {x: 2.6163528, y: 2.5302284, z: 1}
+  m_GameObject: {fileID: 1397703943796938492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 4.44, z: 0}
+  m_LocalScale: {x: 2.4169202, y: 1.9709, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8647987154373963015
+--- !u!212 &3867050248809616343
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599179161379289679}
+  m_GameObject: {fileID: 1397703943796938492}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: bc934882479a3bc40b0ab1e2005cb497, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d587402a0615d824890be4290ab1dd7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,15 +86,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4580850859518574357
+--- !u!61 &5124939899768779800
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397703943796938492}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00011342764, y: 0.0043721497}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.6}
+    newSize: {x: 1.6, y: 1.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.49611533, y: 1.6207812}
+  m_EdgeRadius: 0
+--- !u!50 &5464014078129128813
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599179161379289679}
-  m_BodyType: 1
+  m_GameObject: {fileID: 1397703943796938492}
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -107,39 +133,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!68 &8092176353108332149
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599179161379289679}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.76557076, y: -0.48719814}
-  - {x: -0.5504985, y: -0.062967956}
-  - {x: -0.13924009, y: 0.4517296}
-  - {x: 0.0884088, y: 0.45981684}
-  - {x: 0.31942427, y: 0.3345973}
-  - {x: 0.48609704, y: 0.2223719}
-  - {x: 0.768339, y: -0.0063566715}
-  - {x: 0.76214784, y: -0.34465262}
-  - {x: 0.63087636, y: -0.6028599}
-  - {x: 0.5798833, y: -0.72246534}
-  - {x: 0.49865833, y: -0.80351555}
-  - {x: 0.3060549, y: -0.8210567}
-  - {x: -0.36723813, y: -0.8133148}
-  - {x: -0.57601595, y: -0.7602263}
-  - {x: -0.6524647, y: -0.66586554}
-  - {x: -0.74966663, y: -0.49813622}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
