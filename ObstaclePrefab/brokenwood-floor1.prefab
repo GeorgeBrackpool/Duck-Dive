@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2171572245941584229
+--- !u!1 &5932660616591781240
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1273988411001620311}
-  - component: {fileID: 3304467670284447308}
-  - component: {fileID: 1366125908979471108}
-  - component: {fileID: 2441185043333742891}
+  - component: {fileID: 6737879156383762216}
+  - component: {fileID: 7255938774150715765}
+  - component: {fileID: 6844332847006543097}
+  - component: {fileID: 5883200934481466811}
   m_Layer: 0
-  m_Name: BrokenWoodLogFloor-1
-  m_TagString: Obstacle
+  m_Name: brokenwood-floor1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1273988411001620311
+--- !u!4 &6737879156383762216
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 5932660616591781240}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.409, z: 0}
-  m_LocalScale: {x: 1.574088, y: 2.373688, z: 1}
+  m_LocalPosition: {x: 0.11, y: 3.6651, z: 0}
+  m_LocalScale: {x: 1, y: 1.3314, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3304467670284447308
+--- !u!212 &7255938774150715765
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 5932660616591781240}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f2d1f47d51cfafb458f3650c2de95bcd, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 40d11654a0ac39c4d9714c584db2f887, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,14 +86,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1366125908979471108
+--- !u!50 &6844332847006543097
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 5932660616591781240}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -107,52 +107,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!68 &2441185043333742891
-EdgeCollider2D:
+--- !u!61 &5883200934481466811
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 5932660616591781240}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.006026745, y: -0.37114507}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.6}
+    newSize: {x: 1.6, y: 1.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4915273, y: 0.85771}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.45459676, y: -0.7847071}
-  - {x: -0.42163053, y: -0.6511981}
-  - {x: -0.34895784, y: -0.54868084}
-  - {x: -0.31050763, y: -0.43419522}
-  - {x: -0.24899969, y: -0.33769876}
-  - {x: -0.18108176, y: -0.2288324}
-  - {x: -0.15659297, y: -0.13358077}
-  - {x: -0.098162785, y: -0.09009187}
-  - {x: -0.034478594, y: -0.07891345}
-  - {x: -0.018323988, y: 0.10326457}
-  - {x: 0.061022855, y: 0.17270222}
-  - {x: 0.1138743, y: 0.20918778}
-  - {x: 0.20065258, y: 0.26072973}
-  - {x: 0.30799857, y: 0.26492703}
-  - {x: 0.31337252, y: 0.19816856}
-  - {x: 0.36522308, y: 0.15480082}
-  - {x: 0.40906543, y: 0.09550914}
-  - {x: 0.45400676, y: 0.16934374}
-  - {x: 0.51700634, y: 0.1625882}
-  - {x: 0.51246244, y: -0.13056247}
-  - {x: 0.46260148, y: -0.26128766}
-  - {x: 0.38976157, y: -0.3200263}
-  - {x: 0.3633534, y: -0.45983207}
-  - {x: 0.3177759, y: -0.5508131}
-  - {x: 0.25640848, y: -0.6128135}
-  - {x: 0.21689686, y: -0.7039546}
-  - {x: 0.16678995, y: -0.81120867}
-  - {x: -0.45322967, y: -0.80034316}
-  - {x: -0.44968235, y: -0.7825733}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0

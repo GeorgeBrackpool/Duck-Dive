@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2171572245941584229
+--- !u!1 &1850147909304669296
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1273988411001620311}
-  - component: {fileID: 3304467670284447308}
-  - component: {fileID: 1366125908979471108}
-  - component: {fileID: 2441185043333742891}
+  - component: {fileID: 3208479035569333923}
+  - component: {fileID: 4819366000542326382}
+  - component: {fileID: 2314581408755269504}
+  - component: {fileID: 3432300257847257922}
   m_Layer: 0
-  m_Name: BrokenWoodLogFloor-1
-  m_TagString: Obstacle
+  m_Name: BrokenWoodLogFloor-2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1273988411001620311
+--- !u!4 &3208479035569333923
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 1850147909304669296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.409, z: 0}
-  m_LocalScale: {x: 1.574088, y: 2.373688, z: 1}
+  m_LocalPosition: {x: 0.0422, y: -0.51, z: 0}
+  m_LocalScale: {x: 1.3670089, y: 2.014549, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3304467670284447308
+--- !u!212 &4819366000542326382
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 1850147909304669296}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f2d1f47d51cfafb458f3650c2de95bcd, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6d19d16ef4bc1f846922a6a0a3a8e03b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,14 +86,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1366125908979471108
+--- !u!68 &2314581408755269504
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850147909304669296}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.30959553, y: 0.4089506}
+  - {x: -0.2119624, y: 0.41106552}
+  - {x: -0.036726058, y: 0.40652898}
+  - {x: -0.03398854, y: 0.31116483}
+  - {x: 0.06030949, y: 0.30717558}
+  - {x: 0.10896122, y: 0.25649738}
+  - {x: 0.11232242, y: 0.19407359}
+  - {x: 0.11399954, y: 0.11338271}
+  - {x: 0.15909192, y: 0.10950658}
+  - {x: 0.16566503, y: -0.059428833}
+  - {x: 0.15562746, y: -0.13788432}
+  - {x: 0.16099507, y: -0.23570517}
+  - {x: 0.2059591, y: -0.24395806}
+  - {x: 0.21585296, y: -0.59110224}
+  - {x: 0.25162494, y: -0.5916672}
+  - {x: 0.25940496, y: -0.7990878}
+  - {x: -0.2641344, y: -0.80126}
+  - {x: -0.26117918, y: -0.64794374}
+  - {x: -0.310816, y: -0.55080694}
+  - {x: -0.31342933, y: -0.292225}
+  - {x: -0.3547782, y: -0.20789541}
+  - {x: -0.35647625, y: -0.094249286}
+  - {x: -0.3546917, y: 0.0029360144}
+  - {x: -0.35917333, y: 0.08965577}
+  - {x: -0.4074818, y: 0.0894515}
+  - {x: -0.40552843, y: 0.20359115}
+  - {x: -0.36558178, y: 0.20735912}
+  - {x: -0.36569342, y: 0.25352588}
+  - {x: -0.30648085, y: 0.25978887}
+  - {x: -0.30810237, y: 0.40747693}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!50 &3432300257847257922
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
+  m_GameObject: {fileID: 1850147909304669296}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -107,52 +157,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!68 &2441185043333742891
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2171572245941584229}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.45459676, y: -0.7847071}
-  - {x: -0.42163053, y: -0.6511981}
-  - {x: -0.34895784, y: -0.54868084}
-  - {x: -0.31050763, y: -0.43419522}
-  - {x: -0.24899969, y: -0.33769876}
-  - {x: -0.18108176, y: -0.2288324}
-  - {x: -0.15659297, y: -0.13358077}
-  - {x: -0.098162785, y: -0.09009187}
-  - {x: -0.034478594, y: -0.07891345}
-  - {x: -0.018323988, y: 0.10326457}
-  - {x: 0.061022855, y: 0.17270222}
-  - {x: 0.1138743, y: 0.20918778}
-  - {x: 0.20065258, y: 0.26072973}
-  - {x: 0.30799857, y: 0.26492703}
-  - {x: 0.31337252, y: 0.19816856}
-  - {x: 0.36522308, y: 0.15480082}
-  - {x: 0.40906543, y: 0.09550914}
-  - {x: 0.45400676, y: 0.16934374}
-  - {x: 0.51700634, y: 0.1625882}
-  - {x: 0.51246244, y: -0.13056247}
-  - {x: 0.46260148, y: -0.26128766}
-  - {x: 0.38976157, y: -0.3200263}
-  - {x: 0.3633534, y: -0.45983207}
-  - {x: 0.3177759, y: -0.5508131}
-  - {x: 0.25640848, y: -0.6128135}
-  - {x: 0.21689686, y: -0.7039546}
-  - {x: 0.16678995, y: -0.81120867}
-  - {x: -0.45322967, y: -0.80034316}
-  - {x: -0.44968235, y: -0.7825733}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
