@@ -286,7 +286,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1382840588 stripped
 MonoBehaviour:
@@ -503,7 +503,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 721313450388251568, guid: 716aa73e13abeee4f800db268294ab86, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 721313450388251568, guid: 716aa73e13abeee4f800db268294ab86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,7 +916,7 @@ PrefabInstance:
     - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: obstaclePrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 3614500348176124341, guid: 638f27b6a6c8c2f438e080b58edf206d, type: 3}
+      objectReference: {fileID: 3614500348176124341, guid: e9e36c1e74cd2c948824e07bfcb24531, type: 3}
     - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: obstaclePrefabs.Array.data[1]
       value: 

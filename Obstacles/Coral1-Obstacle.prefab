@@ -136,6 +136,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 7577693354988444349}
     m_Modifications:
+    - target: {fileID: 70935252425241985, guid: 88db4f117908bb44ab39861efbbaddcf, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6233101816600258695, guid: 88db4f117908bb44ab39861efbbaddcf, type: 3}
       propertyPath: m_Name
       value: coral-1
