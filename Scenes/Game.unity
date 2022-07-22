@@ -909,46 +909,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 3614500348176124341, guid: e9e36c1e74cd2c948824e07bfcb24531, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[1]
-      value: 
-      objectReference: {fileID: 926145194849708985, guid: a142919b10994e04587d3fd5e8310057, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 6764073166861848218, guid: 69b191f84b427bb42b9ae4b285309012, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[3]
-      value: 
-      objectReference: {fileID: 2636232026962955189, guid: fd8bb4789ab87fb4a84965ffd8252f9f, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[4]
-      value: 
-      objectReference: {fileID: 5363974949820789322, guid: 43fd851dc75e6e94390c91aa38930ea3, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[5]
-      value: 
-      objectReference: {fileID: 8636277203222513149, guid: 022321dd15bb6a646ba649fcacbd2257, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[6]
-      value: 
-      objectReference: {fileID: 2196176125040974135, guid: c28f5eb86b0f7c14596d1f348e29b7b6, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[7]
-      value: 
-      objectReference: {fileID: 5778452091538906252, guid: cc8ffdb5eeb5b1c48a0a295c248793b7, type: 3}
-    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[8]
-      value: 
-      objectReference: {fileID: 9078425891447414192, guid: 894b2e32e8e2ae745bcfd83f05d97ea9, type: 3}
     - target: {fileID: 4155744089234412660, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -997,12 +957,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle Spawner
       objectReference: {fileID: 0}
-    - target: {fileID: 4155744089234412666, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4155744089234412663, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+    m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
 --- !u!1001 &5136616823384434560
@@ -1220,6 +1175,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687105, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1.8061049
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299162853618687105, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0125
       objectReference: {fileID: 0}
@@ -1257,6 +1216,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687105, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299162853618687111, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687116, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}

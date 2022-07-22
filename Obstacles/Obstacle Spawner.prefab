@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3203472095714766013
 MonoBehaviour:
@@ -45,9 +45,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefabs:
-  - {fileID: 1464018881684090868, guid: de36869ccd0108a4a8fd4dd296476dd2, type: 3}
-  - {fileID: 96133981095729982, guid: f6e31f6ce826f3741ad779f5303d80c5, type: 3}
-  - {fileID: 4747017640256708423, guid: 52585cab63fedcf46813a3284ce82428, type: 3}
+  - {fileID: 3614500348176124341, guid: 91597fdd92e8a594ebbe936eff4515d2, type: 3}
+  - {fileID: 3614500348176124341, guid: 3968d04070e32d34e93372392e2c7edf, type: 3}
+  - {fileID: 3614500348176124341, guid: 6448f600f2c6a72499a798f0cf6671ca, type: 3}
+  - {fileID: 3614500348176124341, guid: e33b3a6b8074bf242a6339dca9ad2265, type: 3}
+  - {fileID: 3614500348176124341, guid: ab2fda1058b963b4b8576999f5516340, type: 3}
+  - {fileID: 3614500348176124341, guid: 055628ab02f10e4408e7478d63c76732, type: 3}
+  - {fileID: 3614500348176124341, guid: d88b93388cd88984885d618fd5bbd375, type: 3}
+  - {fileID: 3614500348176124341, guid: 7cd3a53222fe89b49ab911ca883efe38, type: 3}
+  - {fileID: 3614500348176124341, guid: 638f27b6a6c8c2f438e080b58edf206d, type: 3}
+  - {fileID: 3614500348176124341, guid: a36bdd16c00ddd64c8bf484df4d37721, type: 3}
+  - {fileID: 3614500348176124341, guid: 7b6319cbab986c045882b412644ce5cc, type: 3}
+  - {fileID: 3614500348176124341, guid: 35a4071f463e90941805e99477abf83f, type: 3}
+  - {fileID: 3614500348176124341, guid: 45c8708225e8cb84fbf4bf1ea2c1d54c, type: 3}
+  - {fileID: 3614500348176124341, guid: 91e37dae85658ab4b8a72cc1083af389, type: 3}
+  - {fileID: 3614500348176124341, guid: 773bee1a0ffe7c34797f61da0997ccc9, type: 3}
+  - {fileID: 3614500348176124341, guid: 41981fe7017b2b24caa348df3e23a551, type: 3}
+  - {fileID: 3614500348176124341, guid: e250681998523054a9b3d716d082570e, type: 3}
+  - {fileID: 3614500348176124341, guid: 498724e115bf9da4b9d39c976ddd5c1f, type: 3}
+  - {fileID: 3614500348176124341, guid: 78a143b07f4203544a883e150bcea766, type: 3}
+  - {fileID: 3614500348176124341, guid: ddb77baae6ab78542bb54844391228d5, type: 3}
+  - {fileID: 3614500348176124341, guid: aaa73e69cdf0d904ea8a6140ae03d9eb, type: 3}
+  - {fileID: 3614500348176124341, guid: 4105d75206d242143aac155b3c00f4c5, type: 3}
+  - {fileID: 3614500348176124341, guid: 0460b16acca9d004aa3f8362fed60efe, type: 3}
+  - {fileID: 3614500348176124341, guid: 01c3236d64213ef409f6e63856aaf30d, type: 3}
+  - {fileID: 3614500348176124341, guid: 2e261ed8886ac2144bd46c73013445ac, type: 3}
+  - {fileID: 3614500348176124341, guid: e9e36c1e74cd2c948824e07bfcb24531, type: 3}
+  - {fileID: 3614500348176124341, guid: 812fd26b8bcabae40a0f4bf41d613c41, type: 3}
+  - {fileID: 3614500348176124341, guid: bbdbffc2fb7fd0c41985fa459ca17daf, type: 3}
+  - {fileID: 3614500348176124341, guid: 631f617b8efd50b41abc82dad29348e1, type: 3}
+  - {fileID: 3614500348176124341, guid: 74396cd54008de645a543c6dc2c66e49, type: 3}
+  - {fileID: 3614500348176124341, guid: de467b9806a4a71428195c7e00f6aa32, type: 3}
+  - {fileID: 3614500348176124341, guid: 670dfa75c7da546498c00210d8842fd5, type: 3}
+  - {fileID: 3614500348176124341, guid: 8139c7ec5797aee409a3bf80989a1087, type: 3}
+  - {fileID: 3614500348176124341, guid: a8df630b6415e5143b1a3bc9815936c4, type: 3}
+  - {fileID: 3614500348176124341, guid: 0fe2afb5cf551a04aafed3c31da751b0, type: 3}
+  - {fileID: 3614500348176124341, guid: c65547a420dddcf448f7593b69004c94, type: 3}
+  - {fileID: 3614500348176124341, guid: 0c3066f4435f5284bb345453911b4078, type: 3}
+  - {fileID: 3614500348176124341, guid: f96d6241558365f4384dcb28cd59d8ea, type: 3}
+  - {fileID: 3614500348176124341, guid: b0bae2577621393488c497372e18f403, type: 3}
+  - {fileID: 3614500348176124341, guid: ff1aa3f17587c97418e7d1a8a1f075cf, type: 3}
   timeBetweenObstacleSpawns: 2
   spawnTimeVariance: 0
   minimumSpawnTime: 0.2
