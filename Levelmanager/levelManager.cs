@@ -29,6 +29,10 @@ public class levelManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     
     IEnumerator WaitAndLoad(string sceneName, float delay)
     {

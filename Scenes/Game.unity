@@ -568,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Duck
       objectReference: {fileID: 0}
+    - target: {fileID: 1227536693032201323, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201328, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: upForce
       value: 100
@@ -909,6 +913,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3203472095714766013, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: isLoopingWaves
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4155744089234412660, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -956,6 +964,10 @@ PrefabInstance:
     - target: {fileID: 4155744089234412666, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
       propertyPath: m_Name
       value: Obstacle Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155744089234412666, guid: 3da8a9e21806e3f4fb482ce49d023fb4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1052,6 +1064,18 @@ PrefabInstance:
       propertyPath: isLoopingWaves
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4652818503185587382, guid: 3fe267e8a4706f94da2687d4aba5f418, type: 3}
+      propertyPath: collectablePrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4652818503185587382, guid: 3fe267e8a4706f94da2687d4aba5f418, type: 3}
+      propertyPath: collectablePrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 9046385239428966649, guid: 5276d224774eadf4e9bc9248f02e3070, type: 3}
+    - target: {fileID: 4652818503185587382, guid: 3fe267e8a4706f94da2687d4aba5f418, type: 3}
+      propertyPath: collectablePrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 3484912742932205477, guid: e56c1e16ce0f4934b8f808ce1d6d515e, type: 3}
     - target: {fileID: 5472568114466046628, guid: 3fe267e8a4706f94da2687d4aba5f418, type: 3}
       propertyPath: m_Name
       value: Collectable Spawner
