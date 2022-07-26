@@ -6,7 +6,6 @@ public class Duck : MonoBehaviour
 {
         Rigidbody2D rb;
         BoxCollider2D col;
-        bool playerdead;
         ScoreKeeper scoreKeeper;
         levelManager LevelManager;
 
@@ -50,11 +49,11 @@ public class Duck : MonoBehaviour
     public void DuckDestroyed()
     {
 
-        playerdead = true;
-        LevelManager.LoadGameOver();
         if(gameObject != null){
             Destroy(this.gameObject);
         }
+        LevelManager.LoadGameOver();
+       
         
         //GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         //Destroy(explosion, durationOfExplosion);
