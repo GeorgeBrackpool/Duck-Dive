@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   downForce: 100
-  upForce: 100
+  upForce: 95
   swipeRange: 10
   smooth: 5
   tiltAngle: 60

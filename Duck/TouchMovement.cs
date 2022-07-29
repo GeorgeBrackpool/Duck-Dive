@@ -8,8 +8,7 @@ public class TouchMovement : MonoBehaviour
     [SerializeField] private float downForce = 100f;
     [SerializeField] private float upForce = 100f;
     private bool fingerDown;
-    private bool stopTouch = false;
-    private Vector2 startTouchPosition, currentTouchPosition, endTouchPosition;
+    private Vector2 startTouchPosition, currentTouchPosition;
     public float swipeRange;
 
 
@@ -52,12 +51,14 @@ public class TouchMovement : MonoBehaviour
 
         if(fingerDown)
         {
-            if(transform.position.y > -0.4 && Distance.y > swipeRange)
+            if(transform.position.y > -1.25 && Distance.y > swipeRange)
             {
-                
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                Quaternion baseTarget = Quaternion.Euler(0,0,0);//Slerp back to original Angle of 0.
+                transform.rotation = Quaternion.Slerp(transform.rotation, baseTarget , Time.deltaTime * smooth);
                 rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
 
-                stopTouch = true;
+                
             }
         }
         }
