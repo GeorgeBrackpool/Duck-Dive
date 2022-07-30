@@ -57,10 +57,9 @@ public class oxygenUnderwater : MonoBehaviour
          
          do
          {  
-                yield return new WaitForSeconds(timeBeforeOxygenDecrease);
                 duck.currentOxygen -= damage;
                 oxygenMeter.SetOxygen(duck.currentOxygen);
-                
+                yield return new WaitForSeconds(timeBeforeOxygenDecrease);
         }
         
         while (isUnderwater == true && duck.currentOxygen > 0);
@@ -71,10 +70,9 @@ public class oxygenUnderwater : MonoBehaviour
         
         do
         {
-             yield return new WaitForSeconds(timeBeforeOxygenIncrease);
             duck.currentOxygen += damage;
             oxygenMeter.SetOxygen(duck.currentOxygen);
-           
+            yield return new WaitForSeconds(timeBeforeOxygenIncrease);
         }
         while (duck.currentOxygen < duck.maxOxygen && duck.currentOxygen > 0 && isUnderwater == false);
     }
