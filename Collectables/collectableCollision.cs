@@ -24,7 +24,7 @@ public class collectableCollision : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision != null && collision.gameObject.tag == "Player")
         {
-            scoreKeeper.ModifyScore(5);
+            scoreKeeper.ModifyScore(+5);
             Destroy(gameObject);
         }
     }

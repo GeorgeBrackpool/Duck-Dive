@@ -180,10 +180,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockBoulder-3
       objectReference: {fileID: 0}
-    - target: {fileID: 8138212687010712202, guid: c1762ab2894fd1b4b8d9fe0de4085bc6, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c1762ab2894fd1b4b8d9fe0de4085bc6, type: 3}

@@ -12,7 +12,6 @@ public class Duck : MonoBehaviour
         public int maxOxygen = 100;
         public int currentOxygen;
         
-        
 
         
         
@@ -22,6 +21,7 @@ public class Duck : MonoBehaviour
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
        currentOxygen = maxOxygen;
+       
     }
     private void Awake() 
     {
@@ -49,16 +49,10 @@ public class Duck : MonoBehaviour
     public void DuckDestroyed()
     {
 
-        if(gameObject != null){
+        if(gameObject != null){ 
             Destroy(this.gameObject);
         }
         LevelManager.LoadGameOver();
-       
-        
-        //GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
-        //Destroy(explosion, durationOfExplosion);
-        //AudioSource.PlayClipAtPoint(deathSFX,Camera.main.transform.position, deathSFXVolume);
-        //LevelLoading.FirstTime = false;
     }
 
    

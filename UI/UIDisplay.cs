@@ -11,12 +11,12 @@ public class UIDisplay : MonoBehaviour
     ScoreKeeper scoreKeeper;
 
     private void Awake() {
-        scoreKeeper = FindObjectOfType<ScoreKeeper>();
+        
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
 
     // Update is called once per frame
