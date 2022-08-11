@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1227536693032201328}
   - component: {fileID: 942331378429360630}
   - component: {fileID: 1227536692691357229}
+  - component: {fileID: 3673756151559055674}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Player
@@ -178,5 +179,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef8774ff640e9a046b5846cbc582f1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxOxygen: 100
+--- !u!114 &3673756151559055674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227536693032201323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462f3284727fddb42b58f42940a9506a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oxygenMeter: {fileID: 0}
   currentOxygen: 0
+  maxOxygen: 100
+  timeBeforeOxygenIncrease: 0
+  oxygenIncreaseRate: 15
+  oxygenDecreaseRate: 20

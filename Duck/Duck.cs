@@ -9,8 +9,7 @@ public class Duck : MonoBehaviour
         ScoreKeeper scoreKeeper;
         levelManager LevelManager;
 
-        public int maxOxygen = 100;
-        public int currentOxygen;
+        
         
 
         
@@ -20,7 +19,7 @@ public class Duck : MonoBehaviour
     {
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
-       currentOxygen = maxOxygen;
+       
        
     }
     private void Awake() 
