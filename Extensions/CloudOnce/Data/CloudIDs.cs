@@ -20,6 +20,125 @@ namespace CloudOnce
         /// </summary>
         public static class AchievementIDs
         {
+            public static string noviceDiver
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQAg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "noviceDiver";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string intermediateDiver
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQAw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "intermediateDiver";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string adeptDiver
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQBA";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "adeptDiver";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string masterDiver
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQBQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "masterDiver";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string quackQuack
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQBg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "quackQuack";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string Honk
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkI0Jnq-OgMEAIQBw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "Honk";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
         }
 
         /// <summary>

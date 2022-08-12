@@ -14,8 +14,104 @@ namespace CloudOnce
     /// </summary>
     public static class Achievements
     {
+        private static readonly UnifiedAchievement s_noviceDiver = new UnifiedAchievement("noviceDiver",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQAg"
+#else
+            "noviceDiver"
+#endif
+            );
+
+        public static UnifiedAchievement noviceDiver
+        {
+            get { return s_noviceDiver; }
+        }
+
+        private static readonly UnifiedAchievement s_intermediateDiver = new UnifiedAchievement("intermediateDiver",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQAw"
+#else
+            "intermediateDiver"
+#endif
+            );
+
+        public static UnifiedAchievement intermediateDiver
+        {
+            get { return s_intermediateDiver; }
+        }
+
+        private static readonly UnifiedAchievement s_adeptDiver = new UnifiedAchievement("adeptDiver",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQBA"
+#else
+            "adeptDiver"
+#endif
+            );
+
+        public static UnifiedAchievement adeptDiver
+        {
+            get { return s_adeptDiver; }
+        }
+
+        private static readonly UnifiedAchievement s_masterDiver = new UnifiedAchievement("masterDiver",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQBQ"
+#else
+            "masterDiver"
+#endif
+            );
+
+        public static UnifiedAchievement masterDiver
+        {
+            get { return s_masterDiver; }
+        }
+
+        private static readonly UnifiedAchievement s_quackQuack = new UnifiedAchievement("quackQuack",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQBg"
+#else
+            "quackQuack"
+#endif
+            );
+
+        public static UnifiedAchievement quackQuack
+        {
+            get { return s_quackQuack; }
+        }
+
+        private static readonly UnifiedAchievement s_honk = new UnifiedAchievement("Honk",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkI0Jnq-OgMEAIQBw"
+#else
+            "Honk"
+#endif
+            );
+
+        public static UnifiedAchievement Honk
+        {
+            get { return s_honk; }
+        }
+
         public static readonly UnifiedAchievement[] All =
         {
+            s_noviceDiver,
+            s_intermediateDiver,
+            s_adeptDiver,
+            s_masterDiver,
+            s_quackQuack,
+            s_honk,
         };
 
         public static string GetPlatformID(string internalId)
@@ -27,7 +123,12 @@ namespace CloudOnce
 
         private static readonly Dictionary<string, UnifiedAchievement> s_achievementDictionary = new Dictionary<string, UnifiedAchievement>
         {
-
+            { "noviceDiver", s_noviceDiver },
+            { "intermediateDiver", s_intermediateDiver },
+            { "adeptDiver", s_adeptDiver },
+            { "masterDiver", s_masterDiver },
+            { "quackQuack", s_quackQuack },
+            { "Honk", s_honk },
         };
     }
 }
