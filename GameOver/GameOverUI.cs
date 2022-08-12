@@ -10,6 +10,7 @@ public class GameOverUI : MonoBehaviour
 
     private void Awake() {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
+        CloudOnceServices.instance.SubmitScoreToLeaderboard(scoreKeeper.GetScore());
     }
     
     private void Update() {
@@ -21,6 +22,7 @@ public class GameOverUI : MonoBehaviour
     void Start()
     {
         scoreText.text = scoreKeeper.GetScore().ToString();
+        
     }
 
  
