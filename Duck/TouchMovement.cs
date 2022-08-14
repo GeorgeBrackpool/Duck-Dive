@@ -51,7 +51,7 @@ public class TouchMovement : MonoBehaviour
 
         if(fingerDown)
         {
-            if(transform.rotation.z > -45 && transform.position.y > -1.25 && transform.position.y < 2 && Distance.y > swipeRange) 
+            if(transform.rotation.z > -45 && transform.position.y > -1.50 && transform.position.y < 2 && Distance.y > swipeRange) 
             {
                 rb.constraints = RigidbodyConstraints2D.FreezeRotation;
                 Quaternion baseTarget = Quaternion.Euler(0,0,0);//Slerp back to original Angle of 0.

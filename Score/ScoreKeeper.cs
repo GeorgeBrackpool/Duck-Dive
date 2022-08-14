@@ -5,7 +5,9 @@ using UnityEngine;
 public class ScoreKeeper : MonoBehaviour
 {
     static ScoreKeeper instance;
-    public int score;
+    public int score = 0;
+    public int collectableCounter = 0;
+    
     private void Awake() {
         ManageSingleton();
     }
@@ -37,4 +39,9 @@ public class ScoreKeeper : MonoBehaviour
    {
     score = 0;
    }
+   public void ResetCollectableCounter()
+   {
+    collectableCounter = 0;
+   }
+
 }

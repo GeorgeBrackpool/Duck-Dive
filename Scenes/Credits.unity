@@ -332,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &146633943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +350,6 @@ MonoBehaviour:
   _hideBannerButton: {fileID: 0}
   _bannerPosition: 4
   _androidAdUnitId: Banner_Android
-  _iOSAdUnitId: Banner_iOS
 --- !u!4 &146633944
 Transform:
   m_ObjectHideFlags: 0

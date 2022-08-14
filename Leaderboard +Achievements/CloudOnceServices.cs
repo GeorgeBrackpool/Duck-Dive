@@ -5,17 +5,17 @@ using CloudOnce;
 public class CloudOnceServices : MonoBehaviour
 {
     public static CloudOnceServices instance;
-
+    ScoreKeeper scoreKeeper;
     private void Awake() {
         TestSingleton();
+        
+    }
+    private void Start() {
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
     private void TestSingleton()
     {
-        if(instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        if(instance != null) {Destroy(gameObject);return;}
         instance = this;
         DontDestroyOnLoad(gameObject);
     }

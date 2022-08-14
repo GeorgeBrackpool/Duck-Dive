@@ -59,9 +59,11 @@ public class DuckOxygen : MonoBehaviour
     {
             do
             {
+                
                 currentOxygen += Time.deltaTime * oxygenIncreaseRate;
                 oxygenMeter.SetOxygen(currentOxygen);
                 yield return new WaitForSeconds(timeBeforeOxygenIncrease);
+                
             }
                  
             while (!isUnderwater && currentOxygen < maxOxygen && currentOxygen > 0);
