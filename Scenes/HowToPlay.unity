@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 224.43, y: 83.3}
-  m_SizeDelta: {x: 340.193, y: 108.242004}
+  m_AnchoredPosition: {x: 172, y: 62}
+  m_SizeDelta: {x: 290.292, y: 92.365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &96460416
 MonoBehaviour:
@@ -1090,7 +1090,6 @@ MonoBehaviour:
   _hideBannerButton: {fileID: 0}
   _bannerPosition: 4
   _androidAdUnitId: Banner_Android
-  _iOSAdUnitId: Banner_iOS
 --- !u!4 &1701865713
 Transform:
   m_ObjectHideFlags: 0

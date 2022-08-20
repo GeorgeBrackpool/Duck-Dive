@@ -10,6 +10,8 @@ public class LeaderboardGameOver : MonoBehaviour
     private void Awake() {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
         CloudOnceServices.instance.SubmitScoreToLeaderboard(scoreKeeper.GetScore());
-        Debug.Log("Score submitted");
+    }
+    private void Start() {
+       
     }
 }

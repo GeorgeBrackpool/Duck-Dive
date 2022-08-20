@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6426142870544169825
+--- !u!1 &3436392140941669372
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6426142870544169852}
-  - component: {fileID: 6426142870544169827}
-  - component: {fileID: 6426142870544169853}
+  - component: {fileID: 3436392140941669345}
+  - component: {fileID: 3436392140941669374}
+  - component: {fileID: 3436392140941669344}
   m_Layer: 0
-  m_Name: Music Player Game
+  m_Name: Music Player Game 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6426142870544169852
+--- !u!4 &3436392140941669345
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426142870544169825}
+  m_GameObject: {fileID: 3436392140941669372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3024225, y: 2.1305916, z: -4.1019087}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &6426142870544169827
+--- !u!82 &3436392140941669374
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426142870544169825}
+  m_GameObject: {fileID: 3436392140941669372}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -129,13 +129,13 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6426142870544169853
+--- !u!114 &3436392140941669344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426142870544169825}
+  m_GameObject: {fileID: 3436392140941669372}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e2dfaf952bc107419cac2d8fe094ae5, type: 3}
@@ -147,4 +147,5 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 10b0ee12f5dbd6b42bf3fcd63fa7c8c8, type: 3}
   - {fileID: 8300000, guid: 736807a66614d664a8cba392a14e1233, type: 3}
   - {fileID: 8300000, guid: f8887ba541a37a44ca86e4d46b9de2c9, type: 3}
+  - {fileID: 8300000, guid: f112f637bc22f8c47a20474d7330ecaa, type: 3}
   volume: 0.5

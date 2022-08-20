@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class TouchMovement : MonoBehaviour
 {
-    private Rigidbody2D rb; 
+     private Rigidbody2D rb; 
     [SerializeField] private float downForce = 100f;
     [SerializeField] private float upForce = 100f;
     private bool fingerDown;
     private Vector2 startTouchPosition, currentTouchPosition;
-    public float swipeRange;
-
-
+    public float swipeRange; // Length of the swipe
     [SerializeField]float smooth = 5f;
     [SerializeField] float tiltAngle = 45f;
 
@@ -49,16 +47,15 @@ public class TouchMovement : MonoBehaviour
            currentTouchPosition = Input.GetTouch(0).position;
            Vector2 Distance = currentTouchPosition - startTouchPosition;
 
-        if(fingerDown)
+        if(fingerDown && Distance.y > swipeRange)
         {
-            if(transform.rotation.z > -45 && transform.position.y > -1.50 && transform.position.y < 2 && Distance.y > swipeRange) 
+            if(transform.rotation.z > -45 && transform.position.y > -1.50 && transform.position.y < 2) 
             {
+                
                 rb.constraints = RigidbodyConstraints2D.FreezeRotation;
                 Quaternion baseTarget = Quaternion.Euler(0,0,0);//Slerp back to original Angle of 0.
                 transform.rotation = Quaternion.Slerp(transform.rotation, baseTarget , Time.deltaTime * smooth);
                 rb.AddForce(new Vector2(0,upForce),ForceMode2D.Force);
-                
-                
             }
         }
         }
@@ -90,7 +87,9 @@ public class TouchMovement : MonoBehaviour
        }
     }
 
-   
-   
 }
+
+   
+   
+
 

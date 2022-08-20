@@ -468,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -190, y: 236}
+  m_AnchoredPosition: {x: -151, y: 236}
   m_SizeDelta: {x: 46.79901, y: 46.79901}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &294351020
@@ -1274,7 +1274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -190, y: 82}
+  m_AnchoredPosition: {x: -155, y: 82}
   m_SizeDelta: {x: 245.64, y: 123.517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324656976
@@ -2052,7 +2052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698131402862093989, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4698131402862093990, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
       propertyPath: m_RootOrder
@@ -2101,28 +2101,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
---- !u!1 &4698131400748052985 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4698131402862093989, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
-  m_PrefabInstance: {fileID: 4698131400748052984}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4698131400748052986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4698131400748052985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 767724829f208bf42befec64662804a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _loadBannerButton: {fileID: 0}
-  _showBannerButton: {fileID: 0}
-  _hideBannerButton: {fileID: 0}
-  _bannerPosition: 4
-  _androidAdUnitId: Banner_Android
 --- !u!1001 &4817542239850356325
 PrefabInstance:
   m_ObjectHideFlags: 0
