@@ -8,10 +8,7 @@ public class Duck : MonoBehaviour
         BoxCollider2D col;
         ScoreKeeper scoreKeeper;
         levelManager LevelManager;
-
-        
-        
-
+        private CameraShake shake;
         
         
     // Start is called before the first frame update
@@ -19,7 +16,7 @@ public class Duck : MonoBehaviour
     {
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
-       
+       shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<CameraShake>();
        
     }
     private void Awake() 
@@ -49,10 +46,14 @@ public class Duck : MonoBehaviour
     {
 
         if(gameObject != null){ 
+            FindObjectOfType<HitStop>().Stop(.2f);
             Destroy(this.gameObject);
+            shake.CamShake();
+            
+            
         }
         LevelManager.LoadGameOver();
     }
-
-   
+    
+    
 }

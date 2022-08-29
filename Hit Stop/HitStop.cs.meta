@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: ef8774ff640e9a046b5846cbc582f1bb
+guid: 958839251751c6d4ea6fea978fd196a5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - ShakePreset: {fileID: 11400000, guid: 9ae3bb2e0f5b80e4f8d0b41e92c34753, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

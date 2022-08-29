@@ -2109,6 +2109,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4817542240288964684, guid: 1f2e7b39da0ef4f47bc39d90f2f09776, type: 3}
+      propertyPath: sceneLoadDelay
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4817542240288964685, guid: 1f2e7b39da0ef4f47bc39d90f2f09776, type: 3}
       propertyPath: m_Name
       value: LevelManager
