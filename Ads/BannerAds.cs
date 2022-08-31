@@ -10,7 +10,7 @@ public class BannerAds : MonoBehaviour
     [SerializeField] Button _showBannerButton;
     [SerializeField] Button _hideBannerButton;
  
-    [SerializeField] BannerPosition _bannerPosition = BannerPosition.BOTTOM_CENTER;
+    [SerializeField] BannerPosition _bannerPosition;
  
     [SerializeField] string _androidAdUnitId = "Banner_Android";
     //[SerializeField] string _iOSAdUnitId = "Banner_iOS";
