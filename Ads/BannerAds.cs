@@ -16,6 +16,9 @@ public class BannerAds : MonoBehaviour
     //[SerializeField] string _iOSAdUnitId = "Banner_iOS";
     string _adUnitId = null; // This will remain null for unsupported platforms.
  
+ private void Awake() {
+    Advertisement.Banner.SetPosition(_bannerPosition);
+ }
     void Start()
     {
         // Get the Ad Unit ID for the current platform:
@@ -30,7 +33,7 @@ public class BannerAds : MonoBehaviour
        // _hideBannerButton.interactable = false;
  
         // Set the banner position:
-        Advertisement.Banner.SetPosition(_bannerPosition);
+        
  
         // Configure the Load Banner button to call the LoadBanner() method when clicked:
         //_loadBannerButton.onClick.AddListener(LoadBanner);

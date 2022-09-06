@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8299162853618687105}
   - component: {fileID: 8299162853618687106}
   - component: {fileID: 8299162853618687107}
-  - component: {fileID: 6731657462131955802}
   - component: {fileID: 8299162853618687111}
   - component: {fileID: 8299162853618687104}
   m_Layer: 0
@@ -108,26 +107,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6731657462131955802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8299162853618687116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6892d8ca9f132854bb24d6f1e293b7eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaterStreams:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  minWaitBetweenPlay: 2
-  maxWaitBetweenPlay: 8
 --- !u!61 &8299162853618687111
 BoxCollider2D:
   m_ObjectHideFlags: 0

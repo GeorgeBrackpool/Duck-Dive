@@ -9,6 +9,8 @@ public class Duck : MonoBehaviour
         ScoreKeeper scoreKeeper;
         levelManager LevelManager;
         private CameraShake shake;
+        AudioSource audioSource;
+        
         
         
     // Start is called before the first frame update
@@ -17,7 +19,7 @@ public class Duck : MonoBehaviour
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<CameraShake>();
-       
+       audioSource = GetComponent<AudioSource>();
     }
     private void Awake() 
     {
@@ -42,18 +44,30 @@ public class Duck : MonoBehaviour
        
     }
 
+    public void Rumble()
+    {
+        
+    }
     public void DuckDestroyed()
     {
-
+        
         if(gameObject != null){ 
-            FindObjectOfType<HitStop>().Stop(.2f);
-            Destroy(this.gameObject);
+            
+            FindObjectOfType<HitStop>().Stop(.35f);
             shake.CamShake();
+            audioSource.PlayDelayed(.02f);
+            StartCoroutine(DestroyDuck());
+            
+            
             
             
         }
+        
+    }
+    IEnumerator DestroyDuck()
+    {
+        yield return new WaitForSeconds(0.01f);
+        Destroy(this.gameObject);
         LevelManager.LoadGameOver();
     }
-    
-    
 }

@@ -1408,6 +1408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AdsHowToPlay
       objectReference: {fileID: 0}
+    - target: {fileID: 4062804590303303784, guid: 1b8c5fd56324cd14988cae48401bb707, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4062804590303303798, guid: 1b8c5fd56324cd14988cae48401bb707, type: 3}
       propertyPath: m_RootOrder
       value: 6
