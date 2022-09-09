@@ -24,6 +24,7 @@ public class levelManager : MonoBehaviour
             scoreKeeper.ResetCollectableCounter();
         }
         SceneManager.LoadScene("Game");
+        Advertisement.Banner.Hide();
        
     }
 
@@ -39,6 +40,7 @@ public class levelManager : MonoBehaviour
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        Advertisement.Banner.Hide();
     }
     public void LoadCredits()
     {
