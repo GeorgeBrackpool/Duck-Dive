@@ -8,12 +8,12 @@ public class HideBannerAd : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Advertisement.Banner.Hide();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Advertisement.Banner.Hide();
     }
 }

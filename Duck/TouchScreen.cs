@@ -60,11 +60,12 @@ public class TouchScreen : MonoBehaviour
         }
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
         {
+            fingerDown = true;
             endTouchPosition = Input.GetTouch(0).position;
             Vector2 Distance = endTouchPosition - startTouchPosition;
-                if (Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
+                if (fingerDown)
                 {
-                    fingerDown = true;
+                    //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
                     Dive();
                 }
             

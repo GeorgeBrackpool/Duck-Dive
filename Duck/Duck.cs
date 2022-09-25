@@ -53,9 +53,9 @@ public class Duck : MonoBehaviour
         
         if(gameObject != null){ 
             
-            FindObjectOfType<HitStop>().Stop(.35f);
+            FindObjectOfType<HitStop>().Stop(.45f);
             shake.CamShake();
-            audioSource.PlayDelayed(.02f);
+            audioSource.PlayDelayed(.07f);
             StartCoroutine(DestroyDuck());
             
             
