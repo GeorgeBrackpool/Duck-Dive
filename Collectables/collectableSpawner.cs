@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class collectableSpawner : MonoBehaviour
 {
-    [SerializeField] List<GameObject> collectablePrefabs;
-    [SerializeField] float timeBetweenCollectableSpawns = 2f;
-    [SerializeField] float spawnTimeVariance;
-    [SerializeField] float minimumSpawnTime = 0.2f;
+    [SerializeField] public List<GameObject> collectablePrefabs;
+    [SerializeField] float timeBetweenCollectableSpawns = 15f;
+    [SerializeField] float spawnTimeVariance = 5f;
+    [SerializeField] public float minimumSpawnTime = 10f;
     GameObject currentCollectable;
     [SerializeField] bool isLoopingWaves;
   

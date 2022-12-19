@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameMusic : MonoBehaviour
+public class WaterSounds : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public AudioClip[] songTracks;
+    //This class is a copy of the GameMusic.cs class but is used to randomise water/stream sounds.
+     public AudioSource audioSource;
+    public AudioClip[] waterTracks;
     public float volume;
     public float pitch = 1f;
     private float trackTimer;
@@ -15,10 +16,10 @@ public class GameMusic : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        hasPlayed = new bool[songTracks.Length];
+        hasPlayed = new bool[waterTracks.Length];
 
         if(!audioSource.isPlaying)
-        ChangeSong(Random.Range(0, songTracks.Length));
+        ChangeSong(Random.Range(0, waterTracks.Length));
     }
 
     // Update is called once per frame
@@ -31,7 +32,7 @@ public class GameMusic : MonoBehaviour
         trackTimer += 1 * Time.deltaTime;
 
         if(!audioSource.isPlaying || trackTimer >= audioSource.clip.length)
-        ChangeSong(Random.Range(0, songTracks.Length));
+        ChangeSong(Random.Range(0, waterTracks.Length));
 
         RestartShuffle();
     }
@@ -42,7 +43,7 @@ public class GameMusic : MonoBehaviour
             trackTimer = 0;
             songsPlayed++;
             hasPlayed[songPicked] = true;
-            audioSource.clip = songTracks[songPicked];
+            audioSource.clip = waterTracks[songPicked];
             audioSource.Play();
         }
         else
@@ -50,12 +51,12 @@ public class GameMusic : MonoBehaviour
     }
     private void RestartShuffle()
     {
-    if (songsPlayed == songTracks.Length)
+    if (songsPlayed == waterTracks.Length)
         {
             songsPlayed = 0;
-            for (int i = 0; i < songTracks.Length; i++)
+            for (int i = 0; i < waterTracks.Length; i++)
             {
-                if (i == songTracks.Length)
+                if (i == waterTracks.Length)
                 break;
                 else
                 hasPlayed[i] = false;
