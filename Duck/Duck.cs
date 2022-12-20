@@ -12,7 +12,7 @@ public class Duck : MonoBehaviour
         private CameraShake shake;
         AudioSource audioSource;
         float originalHitStopTime = 0.5f;
-        public float hitStopSpeedUpDelay;
+       [HideInInspector] public float hitStopSpeedUpDelay;
         
         
         

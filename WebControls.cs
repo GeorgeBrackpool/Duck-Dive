@@ -8,11 +8,11 @@ public class WebControls : MonoBehaviour
     bool jumpUp;
     private Rigidbody2D rb;
     
-    [SerializeField] private float downForce = 100f;
-    [SerializeField] private float upForce = 10f;
+    [SerializeField] private float downForce = 16f;
+    [SerializeField] private float upForce = 8.5f;
     [SerializeField]float smooth = 5f;
-    [SerializeField] float tiltAngle = 45f;
-    [SerializeField] float timeBeforeFly = .3f;
+    [SerializeField] float tiltAngle = 60f;
+    [SerializeField] float timeBeforeFly = 1.5f;
     float flyTimer = 0f;
     // Start is called before the first frame update
     void Start()

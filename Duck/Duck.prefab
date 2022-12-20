@@ -103,11 +103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbff4cafcec45043866479f8569bb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  downForce: 100
-  upForce: 10
+  downForce: 16
+  upForce: 8.5
   smooth: 5
-  tiltAngle: 45
-  timeBeforeFly: 0.3
+  tiltAngle: 60
+  timeBeforeFly: 1.5
 --- !u!50 &1227536693032201334
 Rigidbody2D:
   serializedVersion: 4
