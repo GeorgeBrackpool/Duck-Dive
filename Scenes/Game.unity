@@ -904,7 +904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201323, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201328, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: upForce
@@ -1629,6 +1629,26 @@ PrefabInstance:
       propertyPath: waterAnimation
       value: 
       objectReference: {fileID: 8299162852067184364}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: backgroundSpeedIncrease
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: duckHitStopSpeedUpDelay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: collectableSpeedIncrease
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: collectableSpawnTimeDelay
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: waterAnimationSpeedIncrease
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4489733502997173458, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
       propertyPath: m_Name
       value: ScoreSpeedUp

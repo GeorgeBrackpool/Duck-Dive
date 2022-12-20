@@ -6,16 +6,20 @@ public class Duck : MonoBehaviour
 {
         Rigidbody2D rb;
         BoxCollider2D col;
+        SpeedupScore speedupScore;
         ScoreKeeper scoreKeeper;
         levelManager LevelManager;
         private CameraShake shake;
         AudioSource audioSource;
+        float originalHitStopTime = 0.5f;
+        public float hitStopSpeedUpDelay;
         
         
         
     // Start is called before the first frame update
     void Start()
     {
+       speedupScore = FindObjectOfType<SpeedupScore>();
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<CameraShake>();
@@ -43,17 +47,12 @@ public class Duck : MonoBehaviour
         }
        
     }
-
-    public void Rumble()
-    {
-        
-    }
     public void DuckDestroyed()
     {
         
         if(gameObject != null){ 
-            
-            FindObjectOfType<HitStop>().Stop(.5f);
+            hitStopSpeedUpDelay = originalHitStopTime + hitStopSpeedUpDelay;
+            FindObjectOfType<HitStop>().Stop(hitStopSpeedUpDelay);
             shake.CamShake();
             audioSource.PlayDelayed(.07f);
             StartCoroutine(DestroyDuck());

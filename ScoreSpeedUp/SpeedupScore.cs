@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpeedupScore : MonoBehaviour
 {
     GameMusic gameMusic;
+     Duck duck;
      ScoreKeeper scoreKeeper;
      WaterSounds streamWaterSound;
      ObstacleMover obstacleMover;
@@ -19,6 +20,7 @@ public class SpeedupScore : MonoBehaviour
     [SerializeField] float newWaterSoundSpeed = 0.05f;
     [SerializeField, Range(0.01f, 2f)] float waterAnimationSpeedIncrease = +0.2f;
     [SerializeField] float collectableSpawnTimeDelay = 0.2f; // Increases the minimum spawn time for a collectable. Currently at 10.
+    [SerializeField] float duckHitStopSpeedUpDelay = 0.2f;// This is to add to the blank float in the Duck class so that when the score speeds up the time taken for the stop in the hitstop increases so it's not missed due to the other speeding up objects.
     [SerializeField] int targetScore = 20;
     private void Start() {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
@@ -28,6 +30,7 @@ public class SpeedupScore : MonoBehaviour
         backgroundScroller = FindObjectOfType<BackgroundScroller>();
         gameMusic = FindObjectOfType<GameMusic>();
         streamWaterSound = FindObjectOfType<WaterSounds>();
+        duck = FindObjectOfType<Duck>();
         
     }
    private void FixedUpdate() {
@@ -49,9 +52,7 @@ public class SpeedupScore : MonoBehaviour
         backgroundScroller.backgroundScrollSpeed += backgroundSpeedIncrease;
         gameMusic.pitch += newMusicSpeed;
         streamWaterSound.pitch += newWaterSoundSpeed;
-
-        //TODO: add the stream sounds to speed up too in it's new class. Should be waterSounds.pitch += newStreamSoundSpeed.
-        
+        duck.hitStopSpeedUpDelay += duckHitStopSpeedUpDelay;
         targetScore = targetScore += 20;//increment target score so that when another x points is achieved game speeds up.
     }
      

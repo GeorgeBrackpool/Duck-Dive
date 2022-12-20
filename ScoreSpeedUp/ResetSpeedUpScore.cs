@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ResetSpeedUpScore : MonoBehaviour
 {
-    /* This class will reset the speed increases caused by the SpeedupScore class when the game reloads. The speedupscore script makes
+    /* This class will reset some of the speed increases caused by the SpeedupScore class when the game reloads. The speedupscore script makes
     a permanent adjustment to some of the variables of the classes involved such as obstacle speed in the obstacle mover class.*/
 
 
