@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 392, y: -181.99939}
-  m_SizeDelta: {x: 258.9865, y: 201.9263}
+  m_AnchoredPosition: {x: 1469, y: -199}
+  m_SizeDelta: {x: 197.0179, y: 179.2468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87843150
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3e127fc96f04d4043a99e8bfc5776c00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c186af7cdc344f45a9a405c44a71786, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -761,10 +761,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'To play press and hold anywhere on the screen with a finger to make the
-    duck dive downwards! When you take your finger off the screen the duck will rise
-    again upwards to the surface! Go through the obstacles underwater to increase
-    your score. '
+  m_text: 'To play press and hold the spacebar to make the duck dive downwards! When
+    you release the spacebar the duck will rise again upwards to the surface! Go
+    through the obstacles underwater to increase your score. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -791,7 +790,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.05
+  m_fontSize: 45.6
   m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1190,10 +1189,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Look out for the special bread and peas that you may find being thrown
-    in the air as it will reward you with bonus points! To fly out of the water use
-    one finger and swipe upwards when you are on the water''s surface to fly in the
-    air and catch the yummy food! '
+  m_text: Look out for the special bread and peas that you may find being thrown
+    in the air as it will reward you with bonus points! To fly out of the water press
+    the up arrow on the keyboard when you are on the water's surface to fly in the
+    air and catch the yummy food!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1305,8 +1304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -419.71527, y: -183.5611}
-  m_SizeDelta: {x: 262.58813, y: 204.7345}
+  m_AnchoredPosition: {x: -1521, y: -177}
+  m_SizeDelta: {x: 355.7431, y: 157.0163}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689682362
 MonoBehaviour:
@@ -1328,7 +1327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c3608bca6bad81e47ada0263fe7239aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d33de610ddcf9cc4b923f40b7cd7acd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

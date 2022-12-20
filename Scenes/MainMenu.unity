@@ -450,7 +450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &294351019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1255,7 +1255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1324656975
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1798,6 +1798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CloudOnceServices
       objectReference: {fileID: 0}
+    - target: {fileID: 1402419680184982155, guid: b7638d8766f5bf448861dfcbf1774a3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1402419680184982156, guid: b7638d8766f5bf448861dfcbf1774a3e, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2056,7 +2060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698131402862093989, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4698131402862093990, guid: 02b8a5a07b3475e44969c9ae342cee76, type: 3}
       propertyPath: m_RootOrder

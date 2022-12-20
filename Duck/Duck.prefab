@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227536693032201333}
   - component: {fileID: 1227536693032201332}
+  - component: {fileID: 7657367037151453928}
   - component: {fileID: 1227536693032201334}
   - component: {fileID: 1227536693032201335}
   - component: {fileID: 1227536693032201328}
@@ -36,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1227536693032201332
 SpriteRenderer:
@@ -90,6 +91,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7657367037151453928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227536693032201323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbff4cafcec45043866479f8569bb98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downForce: 100
+  upForce: 10
+  smooth: 5
+  tiltAngle: 45
+  timeBeforeFly: 0.3
 --- !u!50 &1227536693032201334
 Rigidbody2D:
   serializedVersion: 4
@@ -144,13 +162,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227536693032201323}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f410bc8ac797350498bc605e076e64c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   downForce: 100
-  upForce: 95
   swipeRange: 10
   smooth: 5
   tiltAngle: 60
@@ -179,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef8774ff640e9a046b5846cbc582f1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitStopSpeedUpDelay: 0
 --- !u!114 &3673756151559055674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,8 +210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oxygenMeter: {fileID: 0}
-  currentOxygen: 0
-  maxOxygen: 100
   timeBeforeOxygenIncrease: 0
   oxygenIncreaseRate: 15
   oxygenDecreaseRate: 20
