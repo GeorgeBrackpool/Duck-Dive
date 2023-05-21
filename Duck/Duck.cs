@@ -54,7 +54,7 @@ public class Duck : MonoBehaviour
             hitStopSpeedUpDelay = originalHitStopTime + hitStopSpeedUpDelay;
             FindObjectOfType<HitStop>().Stop(hitStopSpeedUpDelay);
             shake.CamShake();
-            audioSource.PlayDelayed(.07f);
+            audioSource.PlayDelayed(.08f);
             StartCoroutine(DestroyDuck());
             
             

@@ -46,6 +46,11 @@ public class levelManager : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+
+    public void LoadSettings()
+    {
+        SceneManager.LoadScene("Settings Menu");
+    }
     
     IEnumerator WaitAndLoad(string sceneName, float delay)
     {

@@ -155,7 +155,7 @@ AudioSource:
   m_GameObject: {fileID: 214113813}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 4476b1e4cf45b7449b16b1a3fca4af9d, type: 2}
   m_audioClip: {fileID: 8300000, guid: 273e69647346ce34fad41fd535554e85, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -402,10 +402,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music Player Water
       objectReference: {fileID: 0}
+    - target: {fileID: 3436392140941669372, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
+      propertyPath: m_TagString
+      value: SFX
+      objectReference: {fileID: 0}
     - target: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
       propertyPath: m_Volume
       value: 0.15
       objectReference: {fileID: 0}
+    - target: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 4476b1e4cf45b7449b16b1a3fca4af9d, type: 2}
     m_RemovedComponents:
     - {fileID: 3436392140941669344, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
     m_AddedGameObjects: []
@@ -585,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0402d0b498467894b993c52eb5ef1036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1185210952}
   waterTracks:
   - {fileID: 8300000, guid: 9f03ac9033aa94b488ab4feb53587516, type: 3}
   - {fileID: 8300000, guid: d0cf9e1a854f4f049b27d4393244f8f6, type: 3}
@@ -596,6 +604,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 05d83b6fcfabf4545aa9a6961145a2ab, type: 3}
   volume: 0.15
   pitch: 1
+--- !u!82 &1185210952 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
+  m_PrefabInstance: {fileID: 680033189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1458412496
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,16 +992,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201334, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
-      propertyPath: m_GravityScale
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227536693032201334, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+      propertyPath: m_Constraints
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_Size.x
-      value: 1.487472
+      value: 1.3819749
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_Size.y
-      value: 1.3889414
+      value: 1.3687222
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_Enabled
@@ -996,11 +1013,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_Offset.x
-      value: -0.00035130978
+      value: -0.009139776
       objectReference: {fileID: 0}
     - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: m_Offset.y
-      value: -0.051715314
+      value: -0.042322397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227536693032201335, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3673756151559055674, guid: f4a9e0d8317f0e642b9aeb1f8c4e2bc9, type: 3}
       propertyPath: oxygenDecreaseRate
@@ -1415,14 +1440,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music Player Game
       objectReference: {fileID: 0}
+    - target: {fileID: 3436392140941669372, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
+      propertyPath: m_TagString
+      value: Music Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
       propertyPath: m_Pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
       propertyPath: m_Volume
-      value: 0.45
+      value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3436392140941669374, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 5a59ae46641025a458c915538cb9c6e2, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f4b7ff9d41c98843ad061933f12c663, type: 3}
@@ -1626,16 +1659,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: newMusicSpeed
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
       propertyPath: waterAnimation
       value: 
       objectReference: {fileID: 8299162852067184364}
+    - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
+      propertyPath: newWaterSoundSpeed
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
       propertyPath: backgroundSpeedIncrease
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
       propertyPath: duckHitStopSpeedUpDelay
-      value: 0.1
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4489733502997173457, guid: e2c6e1b318ba3c740840480d47a1f15a, type: 3}
       propertyPath: collectableSpeedIncrease
@@ -1942,6 +1983,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6845515799669033806, guid: 008958a941a4d3140a7d9033fad3baa8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 4476b1e4cf45b7449b16b1a3fca4af9d, type: 2}
     - target: {fileID: 6845515799669033807, guid: 008958a941a4d3140a7d9033fad3baa8, type: 3}
       propertyPath: maxWaitBetweenPlay
       value: 60
@@ -1965,6 +2010,10 @@ PrefabInstance:
     - target: {fileID: 6845515799669033841, guid: 008958a941a4d3140a7d9033fad3baa8, type: 3}
       propertyPath: m_Name
       value: Audio Player Duck
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845515799669033841, guid: 008958a941a4d3140a7d9033fad3baa8, type: 3}
+      propertyPath: m_TagString
+      value: SFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2132,14 +2181,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8299162853618687104, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
-      propertyPath: m_Density
-      value: 2.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299162853618687104, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
-      propertyPath: m_SurfaceLevel
-      value: -0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 8299162853618687105, guid: 2e0071494cf26bb4f82b094a9dbbc9b9, type: 3}
       propertyPath: m_RootOrder
       value: 2

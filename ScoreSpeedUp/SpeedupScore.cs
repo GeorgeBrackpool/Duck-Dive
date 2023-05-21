@@ -36,7 +36,7 @@ public class SpeedupScore : MonoBehaviour
    private void FixedUpdate() {
     if(scoreKeeper.score >= targetScore)
     {
-        //TODO: Speed up Music and Collectables along with reducing collectable spawn rate.
+        
 
         foreach(GameObject obstacle in obstacleSpawns.obstaclePrefabs)
             {    

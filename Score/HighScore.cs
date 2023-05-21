@@ -8,7 +8,7 @@ public class HighScore : MonoBehaviour
 {
      [SerializeField] TextMeshProUGUI highScore;
     // Start is called before the first frame update
-    void Start()
+    void Update() // was start.
     {
         highScore.text = PlayerPrefs.GetInt("HighScore").ToString();
     }
