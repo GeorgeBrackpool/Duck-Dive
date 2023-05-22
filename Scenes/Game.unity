@@ -242,6 +242,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &214113832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214113813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77773033564c3b040ab0867261a2a0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downForce: 15
+  upForce: 8.5
+  smooth: 5
+  tiltAngle: 60
+  timeBeforeFly: 1.5
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7568202098100745354, guid: b4ecf7071f7d36047bd7d2e414054039, type: 3}
@@ -473,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 1643909129609786557, guid: 0c753cb5fc0ba8443998041788474632, type: 3}
       propertyPath: m_Name
       value: Hide Banner Ad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643909129609786557, guid: 0c753cb5fc0ba8443998041788474632, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1643909129609786556, guid: 0c753cb5fc0ba8443998041788474632, type: 3}
@@ -2148,7 +2169,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7568202098196385014}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b02a3c3a8de2f3840a4bc673863d03a5, type: 3}
   m_Name: 

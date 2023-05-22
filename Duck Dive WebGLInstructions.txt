@@ -1,0 +1,9 @@
+WEBGL BUILD NOTES FOR DUCK DIVE
+
+-Scene Main Menu: Disable Achievement Manager.cs. Disable Ads Manager object and CloudOnceServices Object. On the Canvas disable the Google Play sign in button and games controller UI objects.
+
+-Scene How to Play: Add the UI elements from the DuckDiveArt folder for the PC controls. Change the text UI to fit the PC controls along with keeping the touch controls as this now works in itch.io
+-Scenes Settings Menu and Credits: Double check that the Ads objects are disabled.
+
+-Scene Game: Main Camera Object turn Achievements Manager off. Disable Hide Banner Ad Object.  Add WebControls.cs to the Duck Object, down force at 16, upforce at 8.5, tilt angle 60, time before fly 1.5.
+Scene Game Over: Main Camera Object turn Leaderboard Game Over and Achievements Manager scripts off However in the Leaderboard game over script you have to comment out the Submitscore to leaderboard line. Disable AdsGameOver Object. On the Canvas Object Disable the Achievements button and title and the Leaderboard button and title. 
