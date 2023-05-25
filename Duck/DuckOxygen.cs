@@ -43,10 +43,8 @@ public class DuckOxygen : MonoBehaviour
         {
             StopAllCoroutines();
             currentOxygen = 0;
-            if (duck != null)
-            {
-                 duck.DuckDestroyed();
-            }
+            duck.DuckDestroyed();
+            
         }
     }
     private void OnTriggerExit2D(Collider2D other) 

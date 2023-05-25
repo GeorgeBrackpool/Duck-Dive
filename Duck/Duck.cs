@@ -23,7 +23,6 @@ public class Duck : MonoBehaviour
        rb = GetComponent<Rigidbody2D>();
        col = GetComponent<BoxCollider2D>();
        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<CameraShake>();
-       audioSource = GetComponent<AudioSource>();
     }
     private void Awake() 
     {
@@ -54,19 +53,20 @@ public class Duck : MonoBehaviour
             hitStopSpeedUpDelay = originalHitStopTime + hitStopSpeedUpDelay;
             FindObjectOfType<HitStop>().Stop(hitStopSpeedUpDelay);
             shake.CamShake();
-            audioSource.PlayDelayed(.08f);
-            StartCoroutine(DestroyDuck());
-            
+            GameObject.FindWithTag("HitStop").GetComponent<AudioSource>().PlayDelayed(0.8f);
+            DestroyDuck();
+            //TODO: Check co routine hitstop as its broken.
             
             
             
         }
         
     }
-    IEnumerator DestroyDuck()
+    void DestroyDuck()
     {
-        yield return new WaitForSeconds(0.01f);
-        Destroy(this.gameObject);
+        Destroy(gameObject);
         LevelManager.LoadGameOver();
+        
+       
     }
 }

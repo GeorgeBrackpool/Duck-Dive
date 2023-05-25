@@ -63,9 +63,9 @@ public class TouchScreen : MonoBehaviour
             fingerDown = true;
             endTouchPosition = Input.GetTouch(0).position;
             Vector2 Distance = endTouchPosition - startTouchPosition;
-                if (fingerDown)
+                if (fingerDown && Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
                 {
-                    //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
+                    
                     Dive();
                 }
             
