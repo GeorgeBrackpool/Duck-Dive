@@ -54,8 +54,8 @@ public class Duck : MonoBehaviour
             hitStopSpeedUpDelay = originalHitStopTime + hitStopSpeedUpDelay;
             FindObjectOfType<HitStop>().Stop(hitStopSpeedUpDelay);
             shake.CamShake();
-            audioSource.PlayDelayed(.08f);
-            StartCoroutine(DestroyDuck());
+            GameObject.FindWithTag("HitStop").GetComponent<AudioSource>().PlayDelayed(0.8f);
+            DestroyDuck();
             
             
             
@@ -63,9 +63,8 @@ public class Duck : MonoBehaviour
         }
         
     }
-    IEnumerator DestroyDuck()
+    void DestroyDuck()
     {
-        yield return new WaitForSeconds(0.01f);
         Destroy(this.gameObject);
         LevelManager.LoadGameOver();
     }
