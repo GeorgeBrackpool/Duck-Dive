@@ -1,5 +1,7 @@
 WEBGL BUILD NOTES FOR DUCK DIVE
 
+IMPORTANT: Touchphase.stationary in the touchscreen script for webgl only works in certain builds of Unity.
+
 -Scene Main Menu: Disable Achievement Manager.cs. Disable Ads Manager object and CloudOnceServices Object. On the Canvas disable the Google Play sign in button and games controller UI objects.
 
 -Scene How to Play: Add the UI elements from the DuckDiveArt folder for the PC controls. Change the text UI to fit the PC controls along with keeping the touch controls as this now works in itch.io

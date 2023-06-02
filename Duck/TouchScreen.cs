@@ -27,6 +27,7 @@ public class TouchScreen : MonoBehaviour
     void Update()
     {
         Swipe();
+       
         
     }
     public void Swipe()
@@ -58,18 +59,18 @@ public class TouchScreen : MonoBehaviour
                 
             }
         }
+
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
         {
             fingerDown = true;
             endTouchPosition = Input.GetTouch(0).position;
             Vector2 Distance = endTouchPosition - startTouchPosition;
-                if (fingerDown && Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
-                {
-                    
-                    Dive();
-                }
-            
+            if(fingerDown && Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
+            {
+                Dive();
+            }
         }
+       
       if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
       {
         stopTouch = false;
