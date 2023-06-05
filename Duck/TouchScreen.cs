@@ -24,10 +24,17 @@ public class TouchScreen : MonoBehaviour
           
      }
     // Update is called once per frame
-    void Update()
+    void Update() //TODO: TEST FIXED UPDATE FOR TOUCHSCREEN, LESSEN THE DOWNFORCE AND RETEST
     {
         Swipe();
         
+    }
+    private void FixedUpdate() {
+          if (fingerDown)
+                {
+                    // move this method back below into touchphase stationary after test
+                    Dive();
+                }
     }
     public void Swipe()
     {
@@ -63,12 +70,8 @@ public class TouchScreen : MonoBehaviour
             fingerDown = true;
             endTouchPosition = Input.GetTouch(0).position;
             Vector2 Distance = endTouchPosition - startTouchPosition;
-                if (fingerDown)
-                {
-                    //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
-                    Dive();
-                }
-            
+            // put fixedupdate thing here.
+            //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
         }
       if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
       {
