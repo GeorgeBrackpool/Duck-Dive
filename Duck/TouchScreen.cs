@@ -29,13 +29,7 @@ public class TouchScreen : MonoBehaviour
         Swipe();
         
     }
-    private void FixedUpdate() {
-          if (fingerDown)
-                {
-                    // move this method back below into touchphase stationary after test
-                    Dive();
-                }
-    }
+          
     public void Swipe()
     {
        
@@ -70,7 +64,11 @@ public class TouchScreen : MonoBehaviour
             fingerDown = true;
             endTouchPosition = Input.GetTouch(0).position;
             Vector2 Distance = endTouchPosition - startTouchPosition;
-            // put fixedupdate thing here.
+            if (fingerDown)
+                {
+                    // move this method back below into touchphase stationary after test
+                    Dive();
+                }
             //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
         }
       if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
