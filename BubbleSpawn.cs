@@ -24,7 +24,8 @@ public class BubbleSpawn : MonoBehaviour
             DuckUnderwater = true;
             if(DuckUnderwater)
             {
-                 GameObject.FindWithTag("Bubbles").SetActive(true);
+                 gameObject.transform.GetChild(0).gameObject.SetActive(true);
+                 
                  //TODO fix this.
             }
            
@@ -35,6 +36,6 @@ public class BubbleSpawn : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other) {
 
         DuckUnderwater = false;
-        GameObject.FindWithTag("Bubbles").SetActive(false);
+        gameObject.transform.GetChild(0).gameObject.SetActive(false);
     }
 }

@@ -24,7 +24,7 @@ public class TouchScreen : MonoBehaviour
           
      }
     // Update is called once per frame
-    void Update() //TODO: TEST FIXED UPDATE FOR TOUCHSCREEN, LESSEN THE DOWNFORCE AND RETEST
+    void Update() 
     {
         Swipe();
         
@@ -66,7 +66,7 @@ public class TouchScreen : MonoBehaviour
             Vector2 Distance = endTouchPosition - startTouchPosition;
             if (fingerDown)
                 {
-                    // move this method back below into touchphase stationary after test
+                    
                     Dive();
                 }
             //Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange
