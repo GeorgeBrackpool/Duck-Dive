@@ -35,6 +35,7 @@ public class ObstacleSpawns : MonoBehaviour
 
     IEnumerator SpawnObstacles()
     {
+        
         do{
         foreach(GameObject obstacle in obstaclePrefabs)
             {

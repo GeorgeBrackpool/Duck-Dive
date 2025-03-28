@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CloudOnce;
+using GooglePlayGames.BasicApi;
+
 public class CloudOnceServices : MonoBehaviour
 {
     public static CloudOnceServices instance;
@@ -26,8 +28,9 @@ public class CloudOnceServices : MonoBehaviour
     }
     public void AwardNoviceDiver()
     {
-        if(Achievements.noviceDiver.IsUnlocked) {return;}
+        if(Achievements.noviceDiver.IsUnlocked) { return; }
         Achievements.noviceDiver.Unlock();
+        
     }
 
     public void AwardIntermediateDiver()

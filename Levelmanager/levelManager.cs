@@ -37,6 +37,11 @@ public class levelManager : MonoBehaviour
     {
         SceneManager.LoadScene("HowToPlay");
     }
+
+    public void LoadHowToPlayTwo()
+    {
+        SceneManager.LoadScene("HowToPlay2");
+    }
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -45,6 +50,10 @@ public class levelManager : MonoBehaviour
     public void LoadCredits()
     {
         SceneManager.LoadScene("Credits");
+    }
+    public void LoadCustomisation()
+    {
+        SceneManager.LoadScene("Customisation");
     }
 
     public void LoadSettings()

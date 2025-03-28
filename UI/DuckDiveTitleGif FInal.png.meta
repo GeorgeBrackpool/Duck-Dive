@@ -1,0 +1,2199 @@
+fileFormatVersion: 2
+guid: 5324ba392f92a9f4c9afda6e851cf892
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bb09db4df707b43b02bf18f34b3ad9
+      internalID: 1350766175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 9000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782be048606784644ad2cd7c487d4b19
+      internalID: 2048491773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 9000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf7336246736234b82be6350c918ab9
+      internalID: 662209770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 9000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caede5466d54b04e8e3b44e3a3e11f2
+      internalID: -229752376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 9000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b76067dfa724d41936f3d431df5b86
+      internalID: 494340575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7768ea670b9691f43885fab7f76a506e
+      internalID: 427905715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327ba4504e01d8c4e8e747a545031ccc
+      internalID: 392944737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_7
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287457a5441ceb347a18aeec73e231c3
+      internalID: -1747838246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 8500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e1862e06892d4fb6c7eeefe6925b6
+      internalID: 122201414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_9
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a52827a5784f5499fff5ef633304c8
+      internalID: -1243343909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58612f37d6d91646a56cc760ba8f8f2
+      internalID: -724377536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dba38c138c28241a3d33617476b968
+      internalID: 815372546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54092b4bb9c9949a162c467859841e
+      internalID: 197943002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_13
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 8000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3a82ac55701ac4088fa1b90c419d9d
+      internalID: 2054483472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_14
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e3a70454c66740b68590baa61d27b
+      internalID: -1734704527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4934b5d9793294a92ddb123d5fcc9c
+      internalID: 1955155838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b657676f800018449a4ad8930bee8769
+      internalID: 416247002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27751a9737c454db15f308d1c741b3
+      internalID: -1235631602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_18
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 7500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe7264da218662458c81076e94461e6
+      internalID: 1685720628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_19
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 7500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a14bc444e107044b1533137d51272b
+      internalID: -654921125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb44a8ac1a42e246946c4160a7cccea
+      internalID: 682127764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be1a696f370bc344bc80bbea0c351ca
+      internalID: -274911644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fabff0100686340b3c3ae9f51dc46e
+      internalID: -625225850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_23
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 7000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a1c0e5b36ee849b8af8588bc1fd6c
+      internalID: -979853148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_24
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 7000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6810c489a469c8447922a0d03a2f34d7
+      internalID: 1603895524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d938eeff88dc315419bcdadaea03d71d
+      internalID: -1479687278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fe25f943bbd4e48a450f7a615ad3e6
+      internalID: -1772178797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_27
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80b0b9d6cbf4041a33c6ca97e3e1ad
+      internalID: 122325999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_28
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c540e7283faa49b4ffe798bd0d3b6
+      internalID: -1719126835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_29
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d22b4a8f79b6b4f92621c05c705795
+      internalID: -1896990233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6ee06e2c22be14c8ae6529631f0c82
+      internalID: 688911488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf90b0b8146080e469d442319014be8c
+      internalID: 680855226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85bb3311f0155a459196105d5a0a317
+      internalID: 527368270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_33
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748ff4b635235f4428676a378f98529b
+      internalID: -1644074022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f7c560c13f92f4f9b707fef9619796
+      internalID: -1002390805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481a572b92b611b47b419e32fedaca91
+      internalID: 1050630553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4ef1e19fb207e47ad1f43458c5cad2
+      internalID: 1438632281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f46945921b578042858fa714414cb90
+      internalID: -1474904586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c9980863b48074997b4c561107fc9e
+      internalID: 830057628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4894d1cb582114396ab04d07c1848b
+      internalID: 1240096822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891b6979ea96e6c48b2c9f88811cb0f0
+      internalID: 1148767094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_41
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d648cf4ff59fd224c814c256cca17c8a
+      internalID: 375777126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_42
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7520060741739940990864c8443104d
+      internalID: -1287378144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_43
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01ba2c3b63ab0441b48dec4ce5083d7
+      internalID: 4164728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_44
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b69e172e33db48826418bcf713c51
+      internalID: 651935847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d0b3b3b707ac3459ea6f1e456f5cf6
+      internalID: -816233533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_46
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a7e0b8b4ab8b8459d4f8543c235ca8
+      internalID: -1042237312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_47
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04abc1596e42f749b9447b64752afe8
+      internalID: 249526827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_48
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f9f55b655bc9a48a397db818bfefeb
+      internalID: 901392829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_49
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4481d12610c44aa2057175eb54c1c
+      internalID: -1243291609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f544563f5cfc5b74aa93eaee26b1ed44
+      internalID: 105447110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_51
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f3dbc9949a1440a33edbb6cb2b9f9
+      internalID: 104871507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9140ab785548f7488eb6c50eadeaed6
+      internalID: 21446418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_53
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd3629356643f842b167f7b7ab8f82e
+      internalID: 1782729773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_54
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5a18efbf5b9b143a1316e4b9379cad
+      internalID: 341560346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d291d3557f564da26034e891242b0
+      internalID: 183980640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7a5c9f95c8cc4193d842d2826e28c
+      internalID: -986137117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_57
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a12fd4cdbfbf04895dc0374588a92b
+      internalID: 206870545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_58
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4303f0d35a17bd44fbd526ba3cacbe64
+      internalID: -1345626551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_59
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed2d3e107af6d94dac654f034517b08
+      internalID: -1044613971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6ce4e89c54b04f9857dc6977de0d7
+      internalID: 440764117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_61
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156252fdfd5077648a479d967f2cdae2
+      internalID: -1774608963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9170c49d4d3c02c499dea4b308a2605c
+      internalID: 1205263988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349177f44bf98f243b7129c8fc91969f
+      internalID: 262873083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_64
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab919100538ef4fa198c1a08ca1f5f
+      internalID: 2006671915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deee776efd681c4cbc2c54708f90e05
+      internalID: -400424075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_66
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec341383a5a54543b399e68e3a05f9f
+      internalID: -1480282630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_67
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceabfc959f574b4ea4d79191ada6171
+      internalID: 309471668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_68
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb57b562087dd74d8bfdad70caf200c
+      internalID: 732967724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_69
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb01260cc43f084f9a7c551606b14e3
+      internalID: 528176508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9986cdf15e9e1924a983aceef9f6564e
+      internalID: -170466323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_71
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90453077793d2e644b325d895c5ff38d
+      internalID: 1523029811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_72
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0893008316cef7439383e8761bbb924
+      internalID: -1948864975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_73
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb3e8ac0f91464fb07ea6874bae5ed
+      internalID: -546604431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_74
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0b7f34cc8573544aefe623284dfce1
+      internalID: 1603735883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a6b86408afd844ca40594d8290d03a
+      internalID: -1182956119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_76
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c810e27366467b43b8c5a9ccb533a92
+      internalID: -401893111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_77
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e51dc554ecaa4bb65e910a7237f10
+      internalID: -1092781038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_78
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86964d3402da6142ab36e28dae22a76
+      internalID: 1409092808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_79
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64711863bf603e343a4448586ce1012b
+      internalID: -29115028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8929e05b6cfcf3d4bad5c824955de6c2
+      internalID: -12930896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_81
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4f43250e5d272409d65ed6b2dfea28
+      internalID: 739566843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_82
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696606fcdf1036544b9e1e4d3abd1dfb
+      internalID: -1617411148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_83
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562def8a72529f14a828784705aef2be
+      internalID: 1139459876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_84
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1000
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea71e2aa53c3224cb4263871e66373e
+      internalID: -982164664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71cf49f5c4d7648b0665e2df37107c
+      internalID: 1970182313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_86
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea339b308fd9354fb1a6f130e0f962b
+      internalID: 167933133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_87
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324d1f424d0662a478cc1106cd68ae47
+      internalID: -438446996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_88
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a83b2e3fb5074a4a9fdc6dc94779dfe
+      internalID: 2046680534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_89
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 500
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96a5688fcda64e4ab0b069e73d434bd
+      internalID: 1235268974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c24186e2bf99da4f845dac92d39b368
+      internalID: -2003605474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_91
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c3a4a3e1cd8034390bbdb2b369b50e
+      internalID: -335216217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckDiveTitleGif FInal_92
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7775d3330dce8dd4d839bd52e27ac963
+      internalID: -1586975164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DuckDiveTitleGif FInal_0: 1350766175
+      DuckDiveTitleGif FInal_1: 2048491773
+      DuckDiveTitleGif FInal_10: -724377536
+      DuckDiveTitleGif FInal_11: 815372546
+      DuckDiveTitleGif FInal_12: 197943002
+      DuckDiveTitleGif FInal_13: 2054483472
+      DuckDiveTitleGif FInal_14: -1734704527
+      DuckDiveTitleGif FInal_15: 1955155838
+      DuckDiveTitleGif FInal_16: 416247002
+      DuckDiveTitleGif FInal_17: -1235631602
+      DuckDiveTitleGif FInal_18: 1685720628
+      DuckDiveTitleGif FInal_19: -654921125
+      DuckDiveTitleGif FInal_2: 662209770
+      DuckDiveTitleGif FInal_20: 682127764
+      DuckDiveTitleGif FInal_21: -274911644
+      DuckDiveTitleGif FInal_22: -625225850
+      DuckDiveTitleGif FInal_23: -979853148
+      DuckDiveTitleGif FInal_24: 1603895524
+      DuckDiveTitleGif FInal_25: -1479687278
+      DuckDiveTitleGif FInal_26: -1772178797
+      DuckDiveTitleGif FInal_27: 122325999
+      DuckDiveTitleGif FInal_28: -1719126835
+      DuckDiveTitleGif FInal_29: -1896990233
+      DuckDiveTitleGif FInal_3: -229752376
+      DuckDiveTitleGif FInal_30: 688911488
+      DuckDiveTitleGif FInal_31: 680855226
+      DuckDiveTitleGif FInal_32: 527368270
+      DuckDiveTitleGif FInal_33: -1644074022
+      DuckDiveTitleGif FInal_34: -1002390805
+      DuckDiveTitleGif FInal_35: 1050630553
+      DuckDiveTitleGif FInal_36: 1438632281
+      DuckDiveTitleGif FInal_37: -1474904586
+      DuckDiveTitleGif FInal_38: 830057628
+      DuckDiveTitleGif FInal_39: 1240096822
+      DuckDiveTitleGif FInal_4: 494340575
+      DuckDiveTitleGif FInal_40: 1148767094
+      DuckDiveTitleGif FInal_41: 375777126
+      DuckDiveTitleGif FInal_42: -1287378144
+      DuckDiveTitleGif FInal_43: 4164728
+      DuckDiveTitleGif FInal_44: 651935847
+      DuckDiveTitleGif FInal_45: -816233533
+      DuckDiveTitleGif FInal_46: -1042237312
+      DuckDiveTitleGif FInal_47: 249526827
+      DuckDiveTitleGif FInal_48: 901392829
+      DuckDiveTitleGif FInal_49: -1243291609
+      DuckDiveTitleGif FInal_5: 427905715
+      DuckDiveTitleGif FInal_50: 105447110
+      DuckDiveTitleGif FInal_51: 104871507
+      DuckDiveTitleGif FInal_52: 21446418
+      DuckDiveTitleGif FInal_53: 1782729773
+      DuckDiveTitleGif FInal_54: 341560346
+      DuckDiveTitleGif FInal_55: 183980640
+      DuckDiveTitleGif FInal_56: -986137117
+      DuckDiveTitleGif FInal_57: 206870545
+      DuckDiveTitleGif FInal_58: -1345626551
+      DuckDiveTitleGif FInal_59: -1044613971
+      DuckDiveTitleGif FInal_6: 392944737
+      DuckDiveTitleGif FInal_60: 440764117
+      DuckDiveTitleGif FInal_61: -1774608963
+      DuckDiveTitleGif FInal_62: 1205263988
+      DuckDiveTitleGif FInal_63: 262873083
+      DuckDiveTitleGif FInal_64: 2006671915
+      DuckDiveTitleGif FInal_65: -400424075
+      DuckDiveTitleGif FInal_66: -1480282630
+      DuckDiveTitleGif FInal_67: 309471668
+      DuckDiveTitleGif FInal_68: 732967724
+      DuckDiveTitleGif FInal_69: 528176508
+      DuckDiveTitleGif FInal_7: -1747838246
+      DuckDiveTitleGif FInal_70: -170466323
+      DuckDiveTitleGif FInal_71: 1523029811
+      DuckDiveTitleGif FInal_72: -1948864975
+      DuckDiveTitleGif FInal_73: -546604431
+      DuckDiveTitleGif FInal_74: 1603735883
+      DuckDiveTitleGif FInal_75: -1182956119
+      DuckDiveTitleGif FInal_76: -401893111
+      DuckDiveTitleGif FInal_77: -1092781038
+      DuckDiveTitleGif FInal_78: 1409092808
+      DuckDiveTitleGif FInal_79: -29115028
+      DuckDiveTitleGif FInal_8: 122201414
+      DuckDiveTitleGif FInal_80: -12930896
+      DuckDiveTitleGif FInal_81: 739566843
+      DuckDiveTitleGif FInal_82: -1617411148
+      DuckDiveTitleGif FInal_83: 1139459876
+      DuckDiveTitleGif FInal_84: -982164664
+      DuckDiveTitleGif FInal_85: 1970182313
+      DuckDiveTitleGif FInal_86: 167933133
+      DuckDiveTitleGif FInal_87: -438446996
+      DuckDiveTitleGif FInal_88: 2046680534
+      DuckDiveTitleGif FInal_89: 1235268974
+      DuckDiveTitleGif FInal_9: -1243343909
+      DuckDiveTitleGif FInal_90: -2003605474
+      DuckDiveTitleGif FInal_91: -335216217
+      DuckDiveTitleGif FInal_92: -1586975164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

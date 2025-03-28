@@ -25,7 +25,7 @@ public class QuackAudio : MonoBehaviour
         {
             if (waitTimeCountdown < 0f)
             {
-                //TODO: write if !Underwater from the oxygen udnerwater script then do the below. Else if (underwater play these randomly.)
+               
                 if(DuckUnderwater == false)
                 {
                     currentClip = audioClips[Random.Range(0, audioClips.Count)];

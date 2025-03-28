@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8548789832440128430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869133804528175793}
+  - component: {fileID: -2324506028848123300}
+  m_Layer: 0
+  m_Name: SkinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869133804528175793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548789832440128430}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2324506028848123300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548789832440128430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f6385ab0aed9c45b20f8377b4f2a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlockMatrix:
+    hasNoviceAchievement: 0
+    hasIntermediateAchievement: 0
+    hasAdeptAchievement: 0
+    hasMasterAchievement: 0
+  lockImage: {fileID: 21300000, guid: 3067468a9ec89004795f5ddd074a3e35, type: 3}
+  unlockImage: {fileID: 21300000, guid: fe423578c962c2e4784818202979b0fe, type: 3}
+  noviceButton: {fileID: 0}
+  intermediateButton: {fileID: 0}
+  adeptButton: {fileID: 0}
+  masterButton: {fileID: 0}
+  noviceIcon: {fileID: 0}
+  intermediateIcon: {fileID: 0}
+  adeptIcon: {fileID: 0}
+  masterIcon: {fileID: 0}
