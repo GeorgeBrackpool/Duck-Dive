@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 470, y: -230.34}
-  m_SizeDelta: {x: 345.5008, y: 220.8567}
+  m_AnchoredPosition: {x: 480, y: -166}
+  m_SizeDelta: {x: 317.2434, y: 202.7936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87843150
 MonoBehaviour:
@@ -475,7 +474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 364, y: -110}
+  m_AnchoredPosition: {x: 384, y: -73.22}
   m_SizeDelta: {x: 310.4601, y: 180.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482188089
@@ -525,8 +524,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -609,8 +608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 468.6132, y: 132.61}
-  m_SizeDelta: {x: 807.6395, y: 362.93}
+  m_AnchoredPosition: {x: 450, y: 148}
+  m_SizeDelta: {x: 882.82, y: 317.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507802565
 MonoBehaviour:
@@ -632,10 +631,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you are playing Google Play Games on PC. You can use the mouse to simulate
-    touch controls! To dive underwater left-click and/or hold left-click on the mouse
-    to dive downwards. Alternatively you can use the SPACEBAR on the keyboard to
-    Dive downwards.
+  m_text: If you are playing on PC, You can use the mouse to simulate touch controls!
+    To dive underwater left-click or hold left-click on the mouse to dive downwards.
+    Alternatively you can use the SPACEBAR on the keyboard to Dive downwards.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -662,12 +660,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.25
+  m_fontSize: 45.35
   m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 10
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
@@ -698,7 +696,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.6007986, y: 2.5450442, z: 2.9319038, w: -1.7790982}
+  m_margin: {x: 3.6007986, y: 2.5450442, z: 0.8729744, w: 2.9943085}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -912,7 +910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -201.67993, y: -90.28198}
+  m_AnchoredPosition: {x: -83.00001, y: -53.501984}
   m_SizeDelta: {x: 178.5, y: 180.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142135890
@@ -962,8 +960,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1046,8 +1044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -447, y: 111.81}
-  m_SizeDelta: {x: 866.7834, y: 404.5327}
+  m_AnchoredPosition: {x: -447, y: 146}
+  m_SizeDelta: {x: 866.7834, y: 314.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1149000329
 MonoBehaviour:
@@ -1069,11 +1067,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Look out for the special bread and peas that you may find being thrown
-    in the air as it will reward you with bonus points! To fly out of the water use
-    the UP ARROW on the keyboard when you are on the water's surface to fly in the
-    air and catch the yummy food! Alternatively, you can use the mouse by pressing
-    and holding left-click and swiping the mouse upwards and letting go of left-click.
+  m_text: To fly out of the water use the UP ARROW on the keyboard when you are on
+    the water's surface to fly in the air and catch the yummy food! Alternatively,
+    you can use the mouse by pressing and holding left-click and swiping the mouse
+    upwards and letting go of left-click.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1100,12 +1097,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.1
+  m_fontSize: 42.65
   m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 10
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
@@ -1136,7 +1133,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.3948346, y: 2.5450442, z: -0.274002, w: 4.6329346}
+  m_margin: {x: 0.3948346, y: 2.5450442, z: -0.274002, w: 1.0775528}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1186,7 +1183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 182, y: 72}
+  m_AnchoredPosition: {x: 182, y: 66}
   m_SizeDelta: {x: 290.292, y: 92.365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444711401
@@ -1317,8 +1314,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -447, y: -229.89}
-  m_SizeDelta: {x: 344.4239, y: 221.7615}
+  m_AnchoredPosition: {x: -459, y: -164.59027}
+  m_SizeDelta: {x: 316.4061, y: 201.2152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689682362
 MonoBehaviour:
@@ -1392,7 +1389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 50.32007, y: -90.284}
+  m_AnchoredPosition: {x: 121.32006, y: -53.503998}
   m_SizeDelta: {x: 316.9, y: 180.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718713419
@@ -1442,8 +1439,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1526,7 +1523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -445.67993, y: -90.78}
+  m_AnchoredPosition: {x: -285, y: -54}
   m_SizeDelta: {x: 316.9, y: 181.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719846218
@@ -1576,8 +1573,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1825,6 +1822,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f2e7b39da0ef4f47bc39d90f2f09776, type: 3}
+--- !u!1001 &1976516562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.401123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.66794306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.53423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6185639812419445467, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_Name
+      value: ScreenOrientation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
 --- !u!1001 &4062804589712945287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1901,3 +1955,4 @@ SceneRoots:
   - {fileID: 1951751220}
   - {fileID: 395352719}
   - {fileID: 4062804589712945287}
+  - {fileID: 1976516562}

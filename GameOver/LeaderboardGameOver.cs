@@ -11,7 +11,8 @@ public class LeaderboardGameOver : MonoBehaviour
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
        
     }
-    private void Start() {
-        CloudOnceServices.instance.SubmitScoreToLeaderboard(scoreKeeper.GetScore());
+    private void Start()
+    {
+        //CloudOnceServices.instance.SubmitScoreToLeaderboard(scoreKeeper.GetScore());
     }
 }

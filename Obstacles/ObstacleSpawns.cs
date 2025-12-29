@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleSpawns : MonoBehaviour
 {
     [SerializeField] public List<GameObject> obstaclePrefabs;
-    [SerializeField] float timeBetweenObstacleSpawns = 2f;
+    [SerializeField] public float timeBetweenObstacleSpawns = 4f; // Default is 4. 
     [SerializeField] [Tooltip("Takes the number and randomly subtracts or adds the number to the time between obstacles.")] float spawnTimeVariance;
     [SerializeField] [Tooltip("Minimum spawn time allowed between obstacles so the variance doesn't go into a negative number.")] float minimumSpawnTime = 0.2f;
     public GameObject currentObstacle;

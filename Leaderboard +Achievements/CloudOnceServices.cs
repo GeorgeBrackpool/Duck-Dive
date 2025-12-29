@@ -8,16 +8,18 @@ public class CloudOnceServices : MonoBehaviour
 {
     public static CloudOnceServices instance;
     ScoreKeeper scoreKeeper;
-    private void Awake() {
+    private void Awake()
+    {
         TestSingleton();
-        
+
     }
-    private void Start() {
+    private void Start()
+    {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
     private void TestSingleton()
     {
-        if(instance != null) {Destroy(gameObject);return;}
+        if (instance != null) { Destroy(gameObject); return; }
         instance = this;
         DontDestroyOnLoad(gameObject);
     }
@@ -28,35 +30,35 @@ public class CloudOnceServices : MonoBehaviour
     }
     public void AwardNoviceDiver()
     {
-        if(Achievements.noviceDiver.IsUnlocked) { return; }
+        if (Achievements.noviceDiver.IsUnlocked) { return; }
         Achievements.noviceDiver.Unlock();
-        
+
     }
 
     public void AwardIntermediateDiver()
     {
-        if(Achievements.intermediateDiver.IsUnlocked) {return;}
+        if (Achievements.intermediateDiver.IsUnlocked) { return; }
         Achievements.intermediateDiver.Unlock();
     }
     public void AwardAdeptDiver()
     {
-        if(Achievements.adeptDiver.IsUnlocked) {return;}
+        if (Achievements.adeptDiver.IsUnlocked) { return; }
         Achievements.adeptDiver.Unlock();
     }
     public void AwardMasterDiver()
     {
-        if(Achievements.masterDiver.IsUnlocked) {return;}
+        if (Achievements.masterDiver.IsUnlocked) { return; }
         Achievements.masterDiver.Unlock();
     }
     public void AwardQuackQuack()
     {
-        if(Achievements.quackQuack.IsUnlocked) {return;}
+        if (Achievements.quackQuack.IsUnlocked) { return; }
         Achievements.quackQuack.Unlock();
     }
 
     public void AwardHonk()
     {
-        if(Achievements.Honk.IsUnlocked) {return;}
+        if (Achievements.Honk.IsUnlocked) { return; }
         Achievements.Honk.Unlock();
     }
 }

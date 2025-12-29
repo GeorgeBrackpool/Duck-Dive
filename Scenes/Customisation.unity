@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -816,6 +815,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b47370f6966f3c14aa5137665656c0f8, type: 3}
+--- !u!1001 &1107862632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.401123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.66794306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.53423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931233329649273791, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6185639812419445467, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
+      propertyPath: m_Name
+      value: ScreenOrientation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d75ab37d228fa740a02acd8b50d43c2, type: 3}
 --- !u!1 &1142135888
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,7 +906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 258, y: -69.001}
+  m_AnchoredPosition: {x: 261, y: -63}
   m_SizeDelta: {x: 482.9718, y: 209.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142135890
@@ -900,8 +956,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 160
+  m_fontSizeBase: 160
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -999,7 +1055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.42032, y: -68.99899}
+  m_AnchoredPosition: {x: -184.42026, y: -62.997955}
   m_SizeDelta: {x: 505.8609, y: 209.127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719846218
@@ -1049,8 +1105,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 160
+  m_fontSizeBase: 160
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1546,3 +1602,4 @@ SceneRoots:
   - {fileID: 395352719}
   - {fileID: 4062804589712945287}
   - {fileID: 5683823845094424621}
+  - {fileID: 1107862632}

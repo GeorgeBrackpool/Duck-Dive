@@ -91,7 +91,7 @@ public class MoveOnTouch : MonoBehaviour
     {
         if (jumpQueued)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0); // Reset velocity
+            rb.velocity = new Vector2(rb.velocity.x, 0); // Reset velocity
             rb.AddForce(new Vector2(0, queuedJumpForce), ForceMode2D.Impulse);
             jumpQueued = false;
         }

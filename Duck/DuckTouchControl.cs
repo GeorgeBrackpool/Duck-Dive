@@ -95,7 +95,7 @@ public partial class @DuckTouchControl: IInputActionCollection2, IDisposable
                     ""name"": ""TouchPress"",
                     ""type"": ""Button"",
                     ""id"": ""861cf2c8-a098-47bd-92c7-e680507d2218"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -124,8 +124,30 @@ public partial class @DuckTouchControl: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""8ae76941-5364-48dc-9c37-adb9e15f59f3"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TouchPress"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""c0016d08-c5c1-458e-b898-e53acf9a4d59"",
                     ""path"": ""<Touchscreen>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TouchPosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""326674cf-08ec-4fe3-b36c-c872fb9b99a8"",
+                    ""path"": ""<Mouse>/position"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -143,7 +165,7 @@ public partial class @DuckTouchControl: IInputActionCollection2, IDisposable
                     ""name"": ""Fly"",
                     ""type"": ""Button"",
                     ""id"": ""86360b07-25a1-4a8a-80a5-77003eda0d26"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false

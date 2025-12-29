@@ -40,7 +40,7 @@ public class AchievementsManager : MonoBehaviour
                 noviceUnlocked = true;
                 PlayerPrefs.SetInt("NoviceBool", Convert.ToInt32(noviceUnlocked));
                 //Debug.Log("Novice Unlocked");
-                CloudOnceServices.instance.AwardNoviceDiver();
+                //CloudOnceServices.instance.AwardNoviceDiver();
             }
         }
 
@@ -51,7 +51,7 @@ public class AchievementsManager : MonoBehaviour
                 intermediateUnlocked = true;
                 PlayerPrefs.SetInt("IntermediateBool", Convert.ToInt32(intermediateUnlocked));
                 //Debug.Log("Intermediate Unlocked");
-                CloudOnceServices.instance.AwardIntermediateDiver();
+                //CloudOnceServices.instance.AwardIntermediateDiver();
             }
 
             // Ensure Novice is also unlocked
@@ -60,7 +60,7 @@ public class AchievementsManager : MonoBehaviour
                 noviceUnlocked = true;
                 PlayerPrefs.SetInt("NoviceBool", Convert.ToInt32(noviceUnlocked));
                 //Debug.Log("Novice Unlocked (via Intermediate)");
-                CloudOnceServices.instance.AwardNoviceDiver();
+                //CloudOnceServices.instance.AwardNoviceDiver();
             }
         }
 
@@ -71,7 +71,7 @@ public class AchievementsManager : MonoBehaviour
                 adeptUnlocked = true;
                 PlayerPrefs.SetInt("AdeptBool", Convert.ToInt32(adeptUnlocked));
                 //Debug.Log("Adept Unlocked");
-                CloudOnceServices.instance.AwardAdeptDiver();
+                //CloudOnceServices.instance.AwardAdeptDiver();
             }
 
             // Ensure Intermediate and Novice are also unlocked
@@ -80,15 +80,15 @@ public class AchievementsManager : MonoBehaviour
                 intermediateUnlocked = true;
                 PlayerPrefs.SetInt("IntermediateBool", Convert.ToInt32(intermediateUnlocked));
                 //Debug.Log("Intermediate Unlocked (via Adept)");
-                CloudOnceServices.instance.AwardIntermediateDiver();
+                //CloudOnceServices.instance.AwardIntermediateDiver();
             }
 
             if (!noviceUnlocked)
             {
                 noviceUnlocked = true;
                 PlayerPrefs.SetInt("NoviceBool", Convert.ToInt32(noviceUnlocked));
-                //Debug.Log("Novice Unlocked (via Adept)");
-                CloudOnceServices.instance.AwardNoviceDiver();
+               // Debug.Log("Novice Unlocked (via Adept)");
+               // CloudOnceServices.instance.AwardNoviceDiver();
             }
         }
 
@@ -98,8 +98,8 @@ public class AchievementsManager : MonoBehaviour
             {
                 masterUnlocked = true;
                 PlayerPrefs.SetInt("MasterBool", Convert.ToInt32(masterUnlocked));
-                //Debug.Log("Master Unlocked");
-                CloudOnceServices.instance.AwardMasterDiver();
+               // Debug.Log("Master Unlocked");
+               // CloudOnceServices.instance.AwardMasterDiver();
             }
 
             // Ensure Adept, Intermediate, and Novice are also unlocked
@@ -107,16 +107,16 @@ public class AchievementsManager : MonoBehaviour
             {
                 adeptUnlocked = true;
                 PlayerPrefs.SetInt("AdeptBool", Convert.ToInt32(adeptUnlocked));
-                //Debug.Log("Adept Unlocked (via Master)");
-                CloudOnceServices.instance.AwardAdeptDiver();
+               // Debug.Log("Adept Unlocked (via Master)");
+               // CloudOnceServices.instance.AwardAdeptDiver();
             }
 
             if (!intermediateUnlocked)
             {
                 intermediateUnlocked = true;
                 PlayerPrefs.SetInt("IntermediateBool", Convert.ToInt32(intermediateUnlocked));
-                //Debug.Log("Intermediate Unlocked (via Master)");
-                CloudOnceServices.instance.AwardIntermediateDiver();
+               // Debug.Log("Intermediate Unlocked (via Master)");
+               // CloudOnceServices.instance.AwardIntermediateDiver();
             }
 
             if (!noviceUnlocked)
@@ -124,7 +124,7 @@ public class AchievementsManager : MonoBehaviour
                 noviceUnlocked = true;
                 PlayerPrefs.SetInt("NoviceBool", Convert.ToInt32(noviceUnlocked));
                 //Debug.Log("Novice Unlocked (via Master)");
-                CloudOnceServices.instance.AwardNoviceDiver();
+                // CloudOnceServices.instance.AwardNoviceDiver();
             }
         }
 
@@ -134,7 +134,7 @@ public class AchievementsManager : MonoBehaviour
             {
                 quackUnlocked = true;
                 //Debug.Log("Quack Unlocked");
-                CloudOnceServices.instance.AwardQuackQuack();
+                //CloudOnceServices.instance.AwardQuackQuack();
             }
         }
 
@@ -144,7 +144,7 @@ public class AchievementsManager : MonoBehaviour
             {
                 honkUnlocked = true;
                 //Debug.Log("Honk Unlocked");
-                CloudOnceServices.instance.AwardHonk();
+                //CloudOnceServices.instance.AwardHonk();
             }
         }
     }

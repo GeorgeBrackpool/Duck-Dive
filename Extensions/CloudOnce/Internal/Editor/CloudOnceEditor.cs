@@ -270,7 +270,7 @@ namespace CloudOnce.Internal.Editor
                     Path.GetDirectoryName(AssetDatabase.GetAssetPath(MonoScript.FromScriptableObject(this)));
             }
         }
-
+        //
         // ReSharper disable once UnusedMember.Local
         [MenuItem("Window/CloudOnce/Editor", false, 1)]
         private static void ShowCloudConfigWindow()

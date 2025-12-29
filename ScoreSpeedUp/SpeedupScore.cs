@@ -8,13 +8,13 @@ public class SpeedupScore : MonoBehaviour
      Duck duck;
      ScoreKeeper scoreKeeper;
      WaterSounds streamWaterSound;
-     ObstacleMover obstacleMover;
      ObstacleSpawns obstacleSpawns;
     collectableSpawner collectableSpawns;
     BackgroundScroller backgroundScroller;
     [SerializeField] Animator waterAnimation;
     [SerializeField] public float obstacleSpeedIncrease = 0.1f;
      [SerializeField] public float collectableSpeedIncrease = 0.1f;
+    [SerializeField] public float timeBetweenObstacleSpawns = 0.2f; // Increases the frequency of obstacle spawns by reducing "timeBetweenObstacleSpawns" in the ObstacleSpawns class.
     [SerializeField] float backgroundSpeedIncrease = 0.02f;
     [SerializeField] float newMusicSpeed = 0.05f;
     [SerializeField] float newWaterSoundSpeed = 0.05f;
@@ -24,7 +24,6 @@ public class SpeedupScore : MonoBehaviour
     [SerializeField] int targetScore = 20;
     private void Start() {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
-        obstacleMover = FindObjectOfType<ObstacleMover>();
         obstacleSpawns = FindObjectOfType<ObstacleSpawns>();
         collectableSpawns = FindObjectOfType<collectableSpawner>();
         backgroundScroller = FindObjectOfType<BackgroundScroller>();
@@ -47,6 +46,7 @@ public class SpeedupScore : MonoBehaviour
             {    
                 collectable.GetComponent<ObstacleMover>().Speed += collectableSpeedIncrease;//instead of referencing the script directly, Reference the Script as a component of the gameobject.
             }
+        
         collectableSpawns.minimumSpawnTime += collectableSpawnTimeDelay;
         waterAnimation.speed = waterAnimation.speed + waterAnimationSpeedIncrease;
         backgroundScroller.backgroundScrollSpeed += backgroundSpeedIncrease;
