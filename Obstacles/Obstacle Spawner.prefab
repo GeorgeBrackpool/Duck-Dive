@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4155744089234412660}
   - component: {fileID: 3203472095714766013}
+  - component: {fileID: 1766812036762994054}
   m_Layer: 0
   m_Name: Obstacle Spawner
   m_TagString: Untagged
@@ -24,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4155744089234412666}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.09, y: -3.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3203472095714766013
 MonoBehaviour:
@@ -85,7 +86,35 @@ MonoBehaviour:
   - {fileID: 3614500348176124341, guid: f96d6241558365f4384dcb28cd59d8ea, type: 3}
   - {fileID: 3614500348176124341, guid: b0bae2577621393488c497372e18f403, type: 3}
   - {fileID: 3614500348176124341, guid: ff1aa3f17587c97418e7d1a8a1f075cf, type: 3}
-  timeBetweenObstacleSpawns: 2
-  spawnTimeVariance: 0
-  minimumSpawnTime: 0.2
-  isLoopingWaves: 0
+  - {fileID: 3614500348176124341, guid: df54005cc678eff48ae6680a4a4b502b, type: 3}
+  - {fileID: 3614500348176124341, guid: e764a995832407944b66bbb4ce21c85c, type: 3}
+  - {fileID: 3614500348176124341, guid: ce508de20c398a14484c2bea02dc19d7, type: 3}
+  - {fileID: 3614500348176124341, guid: fb7c8b891188e39438d369c9edb7b648, type: 3}
+  - {fileID: 3614500348176124341, guid: c42c7e247c3587940b67ff6bc0c03eae, type: 3}
+  - {fileID: 3614500348176124341, guid: c2182039d0895e04da606740cd977339, type: 3}
+  - {fileID: 3614500348176124341, guid: d313eea4e602b284dab3db5c1353a5d0, type: 3}
+  - {fileID: 3614500348176124341, guid: 088ea23d0ec4c6f4286f6a752ba7becf, type: 3}
+  - {fileID: 3614500348176124341, guid: 1fdfaede0fe24fd43a8188dd82c113cc, type: 3}
+  - {fileID: 3614500348176124341, guid: 75dd76760470f6f43981d79a43df2992, type: 3}
+  - {fileID: 3614500348176124341, guid: f99e268f8b5fda74392835d798975a72, type: 3}
+  - {fileID: 3614500348176124341, guid: 045f4d841c7974b4e99a4056ba145ac6, type: 3}
+  - {fileID: 3614500348176124341, guid: 9174f615242392449b4df35593651786, type: 3}
+  - {fileID: 3614500348176124341, guid: d6ecf4a5795b0ed42ae43b5500cabb6b, type: 3}
+  - {fileID: 3614500348176124341, guid: 63b68fe7dcd34ae4cb0347013f9874b2, type: 3}
+  timeBetweenObstacleSpawns: 4
+  spawnTimeVariance: 1
+  minimumSpawnTime: 1
+  currentObstacle: {fileID: 0}
+  isLoopingWaves: 1
+--- !u!114 &1766812036762994054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155744089234412666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8761ef5ed6af252439daa3ed3e5a2aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

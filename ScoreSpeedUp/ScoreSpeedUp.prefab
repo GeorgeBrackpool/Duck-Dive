@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4489733502997173458}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.5161242, y: 0.08145852, z: -64.53106}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4489733502997173457
 MonoBehaviour:
@@ -45,11 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waterAnimation: {fileID: 0}
-  obstacleSpeedIncrease: 0.5
-  collectableSpeedIncrease: 0.1
-  backgroundSpeedIncrease: 0.02
-  newMusicSpeed: 0.05
-  newWaterSoundSpeed: 0.05
-  waterAnimationSpeedIncrease: 0.05
-  collectableSpawnTimeDelay: 0.2
+  obstacleSpeedIncrease: 1
+  collectableSpeedIncrease: 0.5
+  timeBetweenObstacleSpawns: 0.5
+  backgroundSpeedIncrease: 0.4
+  newMusicSpeed: 0.02
+  newWaterSoundSpeed: 0.02
+  waterAnimationSpeedIncrease: 0.15
+  collectableSpawnTimeDelay: 0.4
+  duckHitStopSpeedUpDelay: 0.15
   targetScore: 20

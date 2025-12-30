@@ -25,8 +25,6 @@ public class BubbleSpawn : MonoBehaviour
             if(DuckUnderwater)
             {
                  gameObject.transform.GetChild(0).gameObject.SetActive(true);
-                 
-                 //TODO fix this.
             }
            
 

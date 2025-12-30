@@ -46,7 +46,7 @@ public class SpeedupScore : MonoBehaviour
             {    
                 collectable.GetComponent<ObstacleMover>().Speed += collectableSpeedIncrease;//instead of referencing the script directly, Reference the Script as a component of the gameobject.
             }
-        
+        obstacleSpawns.timeBetweenObstacleSpawns -= timeBetweenObstacleSpawns;
         collectableSpawns.minimumSpawnTime += collectableSpawnTimeDelay;
         waterAnimation.speed = waterAnimation.speed + waterAnimationSpeedIncrease;
         backgroundScroller.backgroundScrollSpeed += backgroundSpeedIncrease;
