@@ -64,6 +64,6 @@ An indie game developer and full-stack software engineer specializing in interac
 
 ## Links
 
-*   [Google Play Store Storefront](#) *(https://play.google.com/store/apps/details?id=com.GBrackpool.DuckDive&hl=en_GB)*
-*   [Portfolio Website](#) *(https://georgebrackpool.github.io/Portfolio-George-Brackpool/)*
-*   [LinkedIn Profile](#) *(https://www.linkedin.com/in/george-brackpool/)*
+*   [Google Play Store Storefront](#https://play.google.com/store/apps/details?id=com.GBrackpool.DuckDive&hl=en_GB) *(https://play.google.com/store/apps/details?id=com.GBrackpool.DuckDive&hl=en_GB)*
+*   [Portfolio Website](#https://georgebrackpool.github.io/Portfolio-George-Brackpool/) *(https://georgebrackpool.github.io/Portfolio-George-Brackpool/)*
+*   [LinkedIn Profile](#https://www.linkedin.com/in/george-brackpool/) *(https://www.linkedin.com/in/george-brackpool/)*
